@@ -13,7 +13,25 @@ natoms = parse(Int, split(superset, "-")[2])
 #set_names = collect(keys(data))
 ########
 
-function get_nof_E(filename)
+function get_nof_fromfile(setname,nof,filename)
+    Emol=0
+    fileparts = split(pwd(), "/")
+    dir = ""
+    for part in fileparts[2:end-2]
+        dir = dir*"/"*part
+    end
+    dir = dir*"/"*setname*"/"*nof*"/"*filename[1:end-4] * ".out"
+    open(dir, "r") do fmol
+        for linemol in readlines(fmol)
+            if occursin("Final NOF", linemol)
+                Emol = parse(Float64, split(linemol)[6])
+            end
+        end
+    end
+    return Emol
+end
+
+function get_nof_E(nof,filename)
     Emol = 0
 
     open(nof * ".dat", "r") do fmol
@@ -28,30 +46,24 @@ function get_nof_E(filename)
     end
 
     try
-        open(filename[1:end-4] * ".out", "r") do fmol
-            for linemol in readlines(fmol)
-                if occursin("Final NOF", linemol)
-                    Emol = parse(Float64, split(linemol)[6])
-                end
-            end
-        end
-        println(
-            filename[1:end-4] *
-            " is not in " *
-            nof *
-            ".dat but is in " *
-            filename[1:end-4] *
-            ".out",
-        )
+	Emol = get_nof_fromfile("P30-20",nof,filename)
     catch
-        println(
-            filename[1:end-4] *
-            " is not in " *
-            nof *
-            ".dat and " *
-            filename[1:end-4] *
-            ".out does not exist",
-        )
+        try
+	    Emol = get_nof_fromfile("P30-10",nof,filename)
+	catch
+            try
+	        Emol = get_nof_fromfile("P30-5",nof,filename)
+	    catch
+                println(
+                    filename[1:end-4] *
+                    " is not in " *
+                    nof *
+                    ".dat and " *
+                    filename[1:end-4] *
+                    ".out does not exist",
+                    )
+	    end
+        end
     end
 
     return Emol
@@ -82,7 +94,7 @@ for (reaction_name, reaction) in data
         else
             count, filename = info
             molecule_name = filename[1:end-4]
-            E_NOF = get_nof_E(filename)
+            E_NOF = get_nof_E(nof, filename)
             dE_NOF += count * E_NOF
             mol_data[molecule_name] = Dict("E_NOF" => E_NOF, "Count" => count)
         end

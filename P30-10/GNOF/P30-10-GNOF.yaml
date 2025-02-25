@@ -2,17 +2,17 @@ ALKBDE10:
   8:
     Species:
       o:
-        E_NOF: 0
+        E_NOF: -74.836897762
         Count: 1
       mg:
-        E_NOF: 0
+        E_NOF: -199.5781543443
         Count: 1
       ALKBDE10_7_mgo:
         E_NOF: -274.4607890505
         Count: -1
-    dE_NOF: 274.4607890505
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.04573694420000152
+    APD: 33.51607544496905
+    AD: 33.51607544496905
     dE_Ref: 62.2
   3:
     Species:
@@ -20,27 +20,27 @@ ALKBDE10:
         E_NOF: -751.7353068676
         Count: -1
       o:
-        E_NOF: 0
+        E_NOF: -74.836897762
         Count: 1
       ca:
-        E_NOF: 0
+        E_NOF: -676.8304712836
         Count: 1
-    dE_NOF: 751.7353068676
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.06793782200000464
+    APD: 53.59279493269709
+    AD: 53.59279493269709
     dE_Ref: 96.2
 SIE4x4:
   4:
     Species:
       h:
-        E_NOF: 0
+        E_NOF: -0.4992784057
         Count: 1
       SIE4x4_3_h2+_1.75:
-        E_NOF: 0
+        E_NOF: -0.5535034088
         Count: -1
-    dE_NOF: 0.0
-    APD: 38.3
-    AD: 38.3
+    dE_NOF: 0.05422500310000006
+    APD: 4.292789305834965
+    AD: 4.292789305834965
     dE_Ref: 38.3
   12:
     Species:
@@ -60,17 +60,17 @@ SIE4x4:
   6:
     Species:
       SIE4x4_5_he2+_1.25:
-        E_NOF: 0
+        E_NOF: -4.9345907465
         Count: -1
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
-    dE_NOF: 0.0
-    APD: 46.9
-    AD: 46.9
+    dE_NOF: 0.054036513599999836
+    APD: 13.0110004957601
+    AD: 13.0110004957601
     dE_Ref: 46.9
   11:
     Species:
@@ -105,17 +105,17 @@ SIE4x4:
   5:
     Species:
       SIE4x4_4_he2+_1.0:
-        E_NOF: 0
+        E_NOF: -4.9512322435
         Count: -1
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
-    dE_NOF: 0.0
-    APD: 56.9
-    AD: 56.9
+    dE_NOF: 0.07067801060000001
+    APD: 12.574285652209994
+    AD: 12.574285652209994
     dE_Ref: 56.9
   16:
     Species:
@@ -150,32 +150,32 @@ SIE4x4:
   7:
     Species:
       SIE4x4_6_he2+_1.5:
-        E_NOF: 0
+        E_NOF: -4.910044583
         Count: -1
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
-    dE_NOF: 0.0
-    APD: 31.3
-    AD: 31.3
+    dE_NOF: 0.029490350100000562
+    APD: 12.80512693478465
+    AD: 12.80512693478465
     dE_Ref: 31.3
   8:
     Species:
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
       SIE4x4_7_he2+_1.75:
-        E_NOF: 0
+        E_NOF: -4.8959230879
         Count: -1
-    dE_NOF: 0.0
-    APD: 19.1
-    AD: 19.1
+    dE_NOF: 0.015368855000000181
+    APD: 9.461422586749888
+    AD: 9.461422586749888
     dE_Ref: 19.1
   10:
     Species:
@@ -221,17 +221,17 @@ BH76:
   2:
     Species:
       BH76_1_oh:
-        E_NOF: 0
+        E_NOF: -75.5076932658
         Count: -1
       BH76_1_n2:
-        E_NOF: 0
+        E_NOF: -109.1947561841
         Count: -1
       BH76_1_n2ohts:
-        E_NOF: 0
+        E_NOF: -184.5403928497
         Count: 1
-    dE_NOF: 0.0
-    APD: 82.6
-    AD: 82.6
+    dE_NOF: 0.16205660020000323
+    APD: 19.033796815432027
+    AD: 19.033796815432027
     dE_Ref: 82.6
 W4-11:
   117:
@@ -240,68 +240,68 @@ W4-11:
         E_NOF: -1363.1132027229
         Count: -1
       p:
-        E_NOF: 0
+        E_NOF: -340.65590379
         Count: 4
-    dE_NOF: 1363.1132027229
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.489587562899942
+    APD: 16.46484007269862
+    AD: 16.46484007269862
     dE_Ref: 290.58
   136:
     Species:
       cl:
-        E_NOF: 0
+        E_NOF: -459.4364691985
         Count: 1
       o:
-        E_NOF: 0
+        E_NOF: -74.836897762
         Count: 2
       W4-11_135_cloo:
         E_NOF: -609.3056221801
         Count: -1
-    dE_NOF: 609.3056221801
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.1953574576000392
+    APD: 3.8715704661354238
+    AD: 3.8715704661354238
     dE_Ref: 126.39
   131:
     Species:
       c:
-        E_NOF: 0
+        E_NOF: -37.7287072189
         Count: 2
       W4-11_130_c2:
-        E_NOF: 0
+        E_NOF: -75.6029353244
         Count: -1
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.1455208865999964
+    APD: 55.75657596881227
+    AD: 55.75657596881227
     dE_Ref: 147.02
   42:
     Species:
       si:
-        E_NOF: 0
+        E_NOF: -288.8182390403
         Count: 1
       f:
-        E_NOF: 0
+        E_NOF: -99.4288176935
         Count: 4
       W4-11_41_sif4:
         E_NOF: -687.4725837745
         Count: -1
-    dE_NOF: 687.4725837745
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.9390739602000053
+    APD: 11.160234139433328
+    AD: 11.160234139433328
     dE_Ref: 577.78
   121:
     Species:
       o:
-        E_NOF: 0
+        E_NOF: -74.836897762
         Count: 3
       W4-11_120_t-hooo:
-        E_NOF: 0
+        E_NOF: -225.3555372315
         Count: -1
       h:
-        E_NOF: 0
+        E_NOF: -0.4992784057
         Count: 1
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.3455655397999635
+    APD: 16.57857171445289
+    AD: 16.57857171445289
     dE_Ref: 233.3
   129:
     Species:
@@ -309,128 +309,128 @@ W4-11:
         E_NOF: -1590.1721643631
         Count: -1
       s:
-        E_NOF: 0
+        E_NOF: -397.4502804193
         Count: 4
-    dE_NOF: 1590.1721643631
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.37104268589996536
+    APD: 1.6505795378367338
+    AD: 1.6505795378367338
     dE_Ref: 234.35
   139:
     Species:
       b:
-        E_NOF: 0
+        E_NOF: -24.5694762107
         Count: 1
       W4-11_138_bn:
-        E_NOF: 0
+        E_NOF: -79.0952410374
         Count: -1
       n:
-        E_NOF: 0
+        E_NOF: -54.4168850765
         Count: 1
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.1088797501999963
+    APD: 36.95606466207232
+    AD: 36.95606466207232
     dE_Ref: 105.24
   137:
     Species:
       f:
-        E_NOF: 0
+        E_NOF: -99.4288176935
         Count: 2
       o:
-        E_NOF: 0
+        E_NOF: -74.836897762
         Count: 2
       W4-11_136_foof:
-        E_NOF: 0
+        E_NOF: -348.7300119272
         Count: -1
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.19858101619999502
+    APD: 27.829915690173138
+    AD: 27.829915690173138
     dE_Ref: 152.37
   138:
     Species:
       W4-11_137_o3:
-        E_NOF: 0
+        E_NOF: -224.6642383997
         Count: -1
       o:
-        E_NOF: 0
+        E_NOF: -74.836897762
         Count: 3
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.1535451136999768
+    APD: 51.13418194305956
+    AD: 51.13418194305956
     dE_Ref: 147.43
   135:
     Species:
       f:
-        E_NOF: 0
+        E_NOF: -99.4288176935
         Count: 1
       o:
-        E_NOF: 0
+        E_NOF: -74.836897762
         Count: 2
       W4-11_134_fo2:
-        E_NOF: 0
+        E_NOF: -249.2302760215
         Count: -1
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.1276628040000105
+    APD: 54.65627247139341
+    AD: 54.65627247139341
     dE_Ref: 134.72
   47:
     Species:
       f:
-        E_NOF: 0
+        E_NOF: -99.4288176935
         Count: 3
       W4-11_46_alf3:
         E_NOF: -540.8413988005
         Count: -1
       al:
-        E_NOF: 0
+        E_NOF: -241.8602585731
         Count: 1
-    dE_NOF: 540.8413988005
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.6946871468999802
+    APD: 4.703044178322557
+    AD: 4.703044178322557
     dE_Ref: 430.97
   105:
     Species:
       h:
-        E_NOF: 0
+        E_NOF: -0.4992784057
         Count: 1
       W4-11_104_hnnn:
-        E_NOF: 0
+        E_NOF: -164.2546626142
         Count: -1
       n:
-        E_NOF: 0
+        E_NOF: -54.4168850765
         Count: 3
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.5047289789999638
+    APD: 15.249220820172695
+    AD: 15.249220820172695
     dE_Ref: 331.79
 G2RC:
   21:
     Species:
       G2RC_20_13:
-        E_NOF: 0
+        E_NOF: -76.1999657536
         Count: 1
       G2RC_20_34:
-        E_NOF: 0
+        E_NOF: -109.194293839
         Count: 1
       G2RC_20_1:
-        E_NOF: 0
+        E_NOF: -1.1633909889
         Count: -1
       G2RC_20_68:
-        E_NOF: 0
+        E_NOF: -184.0920536439
         Count: -1
-    dE_NOF: 0.0
-    APD: 81.21
-    AD: 81.21
+    dE_NOF: -0.13881495980000125
+    APD: 5.847802038570791
+    AD: 5.847802038570791
     dE_Ref: -81.21
 DC13:
   8:
     Species:
       DC13_7_be4:
-        E_NOF: 0
+        E_NOF: -58.4329292723
         Count: 1
       be:
-        E_NOF: 0
+        E_NOF: -14.5974951279
         Count: -4
-    dE_NOF: 0.0
-    APD: 92.0
-    AD: 92.0
+    dE_NOF: -0.042948760699999866
+    APD: 65.06468472699508
+    AD: 65.06468472699508
     dE_Ref: -92.0

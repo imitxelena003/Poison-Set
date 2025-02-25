@@ -2,75 +2,75 @@ SIE4x4:
   6:
     Species:
       SIE4x4_5_he2+_1.25:
-        E_NOF: 0
+        E_NOF: -4.9345907465
         Count: -1
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
-    dE_NOF: 0.0
-    APD: 46.9
-    AD: 46.9
+    dE_NOF: 0.054036513599999836
+    APD: 13.0110004957601
+    AD: 13.0110004957601
     dE_Ref: 46.9
   7:
     Species:
       SIE4x4_6_he2+_1.5:
-        E_NOF: 0
+        E_NOF: -4.910044583
         Count: -1
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
-    dE_NOF: 0.0
-    APD: 31.3
-    AD: 31.3
+    dE_NOF: 0.029490350100000562
+    APD: 12.80512693478465
+    AD: 12.80512693478465
     dE_Ref: 31.3
   16:
     Species:
       SIE4x4_15_h2o+:
-        E_NOF: 0
+        E_NOF: -75.7593580112
         Count: 1
       SIE4x4_15_h2o:
-        E_NOF: 0
+        E_NOF: -76.198263833
         Count: 1
       SIE4x4_15_h2o2+_1.75:
-        E_NOF: 0
+        E_NOF: -151.9653317843
         Count: -1
-    dE_NOF: 0.0
-    APD: 9.3
-    AD: 9.3
+    dE_NOF: 0.0077099400999998124
+    APD: 4.464711066285118
+    AD: 4.464711066285118
     dE_Ref: 9.3
   8:
     Species:
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
       SIE4x4_7_he2+_1.75:
-        E_NOF: 0
+        E_NOF: -4.8959230879
         Count: -1
-    dE_NOF: 0.0
-    APD: 19.1
-    AD: 19.1
+    dE_NOF: 0.015368855000000181
+    APD: 9.461422586749888
+    AD: 9.461422586749888
     dE_Ref: 19.1
 W4-11:
   131:
     Species:
       c:
-        E_NOF: 0
+        E_NOF: -37.7287072189
         Count: 2
       W4-11_130_c2:
-        E_NOF: 0
+        E_NOF: -75.6029353244
         Count: -1
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.1455208865999964
+    APD: 55.75657596881227
+    AD: 55.75657596881227
     dE_Ref: 147.02
 MB16-43:
   24:

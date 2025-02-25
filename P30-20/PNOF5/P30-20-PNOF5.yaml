@@ -2,75 +2,75 @@ SIE4x4:
   6:
     Species:
       SIE4x4_5_he2+_1.25:
-        E_NOF: 0
+        E_NOF: -4.9019282785
         Count: -1
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
-    dE_NOF: 0.0
-    APD: 46.9
-    AD: 46.9
+    dE_NOF: 0.021374045600000002
+    APD: 33.49526730196
+    AD: 33.49526730196
     dE_Ref: 46.9
   7:
     Species:
       SIE4x4_6_he2+_1.5:
-        E_NOF: 0
+        E_NOF: -4.8894316958
         Count: -1
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
-    dE_NOF: 0.0
-    APD: 31.3
-    AD: 31.3
+    dE_NOF: 0.008877462900000133
+    APD: 25.732499142264917
+    AD: 25.732499142264917
     dE_Ref: 31.3
   16:
     Species:
       SIE4x4_15_h2o+:
-        E_NOF: 0
+        E_NOF: -75.6244922673
         Count: 1
       SIE4x4_15_h2o:
-        E_NOF: 0
+        E_NOF: -76.0438538443
         Count: 1
       SIE4x4_15_h2o2+_1.75:
-        E_NOF: 0
+        E_NOF: -151.6758131265
         Count: -1
-    dE_NOF: 0.0
-    APD: 9.3
-    AD: 9.3
+    dE_NOF: 0.007467014900015556
+    APD: 4.617061605455245
+    AD: 4.617061605455245
     dE_Ref: 9.3
   8:
     Species:
       he_plus:
-        E_NOF: 0
+        E_NOF: -1.9936231604
         Count: 1
       he:
-        E_NOF: 0
+        E_NOF: -2.8869310725
         Count: 1
       SIE4x4_7_he2+_1.75:
-        E_NOF: 0
+        E_NOF: -4.8845504679
         Count: -1
-    dE_NOF: 0.0
-    APD: 19.1
-    AD: 19.1
+    dE_NOF: 0.003996234999999793
+    APD: 16.59376121975013
+    AD: 16.59376121975013
     dE_Ref: 19.1
 W4-11:
   131:
     Species:
       c:
-        E_NOF: 0
+        E_NOF: -37.6703032358
         Count: 2
       W4-11_130_c2:
-        E_NOF: 0
+        E_NOF: -75.4811467763
         Count: -1
-    dE_NOF: 0.0
-    APD: 100.0
-    AD: 100.0
+    dE_NOF: 0.14054030469999645
+    APD: 58.88014790739723
+    AD: 58.88014790739723
     dE_Ref: 147.02
 MB16-43:
   24:
