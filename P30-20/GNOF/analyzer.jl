@@ -18,7 +18,7 @@ function get_nof_E(filename)
 
     open(nof * ".dat", "r") do fmol
         for linemol in readlines(fmol)
-            if occursin(filename[1:end-4], linemol)
+            if filename[1:end-4] == split(linemol)[1]
                 Emol = parse(Float64, split(linemol)[2])
             end
         end
