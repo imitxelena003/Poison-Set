@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Extended Pairing
+  chapters:
+  - file: P30-20-GNOF.ipynb
+    sections:
+    - file: P30-20-PNOF7.ipynb
+    - file: P30-20-PNOF5.ipynb
+  - file: P30-10-GNOF.ipynb
+    sections:
+    - file: P30-10-PNOF7.ipynb
+    - file: P30-10-PNOF5.ipynb
+  - file: P30-5-GNOF.ipynb
+    sections:
+    - file: P30-5-PNOF7.ipynb
+    - file: P30-5-PNOF5.ipynb
