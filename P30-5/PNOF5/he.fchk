@@ -1,0 +1,51 @@
+p30-5 set                                                                       
+ENERGY    PNOF5    /home/ion/p30-5/inps/def2-svp/Pnof5/def2-svp.bas                                
+Number of atoms                            I                1
+Charge                                     I                0
+Multiplicity                               I                1
+Number of electrons                        I                2
+Number of alpha electrons                  I                1
+Number of beta electrons                   I                1
+Number of basis functions                  I                5
+Number of independent functions            I                5
+Number of contracted shells                I                3
+Highest angular momentum                   I                1
+Largest degree of contraction              I                3
+Number of primitive shells                 I                5
+Virial Ratio                               R      0.000000000000000E+00
+Atomic numbers                             I   N=           1
+           2
+Nuclear charges                            R   N=           1
+  2.00000000E+00
+Current cartesian coordinates              R   N=           3
+  0.00000000E+00  0.00000000E+00  0.00000000E+00
+Total Energy                               R     -2.886931072536664E+00
+Shell types                                I   N=           3
+           0           0           1
+Number of primitives per shell             I   N=           3
+           3           1           1
+Shell to atom map                          I   N=           3
+           1           1           1
+Coordinates of each shell                  R   N=           9
+  0.00000000E+00  0.00000000E+00  0.00000000E+00  0.00000000E+00  0.00000000E+00
+  0.00000000E+00  0.00000000E+00  0.00000000E+00  0.00000000E+00
+Primitive exponents                        R   N=           5
+  3.83549367E+01  5.76890815E+00  1.23994070E+00  2.97578160E-01  1.00000000E+00
+Contraction coefficients                   R   N=           5
+  4.01838904E-02  2.61391344E-01  7.93039158E-01  1.00000000E+00  1.00000000E+00
+Alpha Orbital Energies                     R   N=           5
+ -9.39967838E-01 -1.16320143E-02 -3.89269307E-03 -3.89269307E-03 -3.89269307E-03
+Alpha MO coefficients                      R   N=          25
+  5.90135728E-01  5.15591399E-01  0.00000000E+00  0.00000000E+00  0.00000000E+00
+ -1.15082401E+00  1.18609510E+00  0.00000000E+00  0.00000000E+00  0.00000000E+00
+  0.00000000E+00  0.00000000E+00  1.00000000E+00  0.00000000E+00  0.00000000E+00
+  0.00000000E+00  0.00000000E+00  0.00000000E+00  1.00000000E+00  0.00000000E+00
+  0.00000000E+00  0.00000000E+00  0.00000000E+00  0.00000000E+00  1.00000000E+00
+Total SCF Density                          R   N=          15
+  7.02148668E-01  5.92464667E-01  5.39259986E-01  0.00000000E+00  0.00000000E+00
+  2.38877066E-03  0.00000000E+00  0.00000000E+00  0.00000000E+00  2.38877066E-03
+  0.00000000E+00  0.00000000E+00  0.00000000E+00  0.00000000E+00  2.38877066E-03
+Natural orbital occupancies                R   N=           5
+  9.92255510E-01  4.16133373E-03  1.19438533E-03  1.19438533E-03  1.19438533E-03
+Dipole Moment                              R   N=           3
+  0.00000000E+00  0.00000000E+00  0.00000000E+00

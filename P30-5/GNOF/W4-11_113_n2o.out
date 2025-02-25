@@ -1,0 +1,320 @@
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+Master:    0
+
+ The execution started at 11h 12min on the 11/21/2024
+
+    ===========================================================
+    !                                                         !
+    !                        Do N O F                         !
+    !                                                         !
+    !  (Donostia Natural Orbital Functional Software Program) !
+    !                                                         !
+    !               COPYRIGHT by Mario Piris                  !
+    !                                                         !
+    !      Donostia International Physics Center (DIPC)       !
+    !       University of the Basque Country (UPV/EHU)        !
+    !       Basque Foundation for Science (IKERBASQUE)        !
+    !                                                         !
+    !          GNU General Public License version 3           !
+    !                                                         !
+    !                  VERSION: Mayo 2024                     !
+    !                                                         !
+    ===========================================================
+
+ Run Title
+ ---------
+ p30-5 set                                                                       
+
+ Basis Set
+ ---------
+ /beegfs_agamede/gscratch/povmieci/SCRATCH/64777/def2-svp.bas                    
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ N           7.0        0.0000        0.0000       -2.2705
+ N           7.0        0.0000        0.0000       -0.1368
+ O           8.0        0.0000        0.0000        2.1063
+
+ Atomic Basis Set
+ ----------------
+ The contracted primitive functions were unnormalized
+ The contracted basis functions are now normalized to unity
+
+  Shell Type  Primitive         Exponent  Contraction Coefficient
+
+ N         
+
+      1   S       1          1712.8415853   -0.005447799580
+      1   S       2           257.6481268   -0.040627174632
+      1   S       3            58.4582459   -0.181119622506
+      1   S       4            16.1983679   -0.468439755632
+      1   S       5             5.0052601   -0.446168462892
+
+      2   S       6             0.5873186    1.000000000000
+
+      3   S       7             0.1876459    1.000000000000
+
+      4   P       8            13.5714702   -0.058848116970
+      4   P       9             2.9257373   -0.320246247625
+      4   P      10             0.7992775   -0.753282265204
+
+      5   P      11             0.2195435    1.000000000000
+
+      6   D      12             1.0000000    1.000000000000
+
+ N         
+
+      7   S      13          1712.8415853   -0.005447799580
+      7   S      14           257.6481268   -0.040627174632
+      7   S      15            58.4582459   -0.181119622506
+      7   S      16            16.1983679   -0.468439755632
+      7   S      17             5.0052601   -0.446168462892
+
+      8   S      18             0.5873186    1.000000000000
+
+      9   S      19             0.1876459    1.000000000000
+
+     10   P      20            13.5714702   -0.058848116970
+     10   P      21             2.9257373   -0.320246247625
+     10   P      22             0.7992775   -0.753282265204
+
+     11   P      23             0.2195435    1.000000000000
+
+     12   D      24             1.0000000    1.000000000000
+
+ O         
+
+     13   S      25          2266.1767785   -0.005389350392
+     13   S      26           340.8701019   -0.040234721389
+     13   S      27            77.3631352   -0.180081842055
+     13   S      28            21.4796449   -0.468288576577
+     13   S      29             6.6589433   -0.446926171602
+
+     14   S      30             0.8097598    1.000000000000
+
+     15   S      31             0.2553077    1.000000000000
+
+     16   P      32            17.7215043    0.062630248763
+     16   P      33             3.8635505    0.333311384824
+     16   P      34             1.0480921    0.741486383081
+
+     17   P      35             0.2764154    1.000000000000
+
+     18   D      36             1.2000000    1.000000000000
+
+ Total Number of Basis Set Shells             =   18
+ Total Number of Primitives                   =   36
+ Number of Cartesian Gaussian Basis Functions =   45
+ Number of Electrons                          =   22
+ Charge of Molecule                           =    0
+ Spin Multiplicity                            =    1
+ Number of Occupied Orbitals (Alpha)          =   11
+ Number of Occupied Orbitals (Beta )          =   11
+ Total Number of Atoms                        =    3
+
+ Input Run Options
+ -----------------
+ IRUNTYP = 1  MULT = 1  ICHARG =  0 IECP = 0  IEMOM = 1  UNITS = ANGS    
+
+ Integral Options
+ ----------------
+ CUTOFF = 1.0E-09   ISCHWZ = 0   ERITYP = FULL
+
+ Input NOF Options
+ -----------------
+
+ Type of calculation =    Coeff. Opt.:   (ICOEF)         1
+ Use Softmax function for Occ. Opt.:     (ISOFTMAX)      1
+ Type of Orb. Opt. = Orbital Rotations:  (IORBOPT)       4
+ Maximum Number of Occ-Coef Outer Iter.: (MAXIT)      1000
+
+ Natural Orbital Functional Selected:    (IPNOF)         8
+
+ Restart calculation Option:             (RESTART)       F
+ Restart Gamma Matrix from GCF file:     (INPUTGAMMA)    0
+ Coefficient Matrix from GCF file:       (INPUTC)        0
+ Diagonal Elements FMIUG from GCF file:  (INPUTFMIUG)    0
+ Cartesian Coordinates from GCF file:    (INPUTCXYZ)     0
+ Orthogonalize the initial Orbitals:     (ORTHO)         T
+
+ Output Option:                          (NPRINT)        0
+ Output the Coefficient Matrix:          (IWRITEC)       0
+ Do a Mulliken Population Analysis:      (IMULPOP)       0
+ Write Information into a WFN file:      (IAIMPAC)       1
+ Write Information into a FCHK file:     (IFCHK)         1
+ Write Information into a MLP file:      (MOLDEN)        1
+ Create Ini. Cond. (ini.xyz) file:       (INICOND)       1
+ Calculate IPs using Ext. Koopmans Theo: (IEKT)          0
+ Write APSG expansion coefficient file:  (APSG)          F
+ Output option for Lagrange Multipliers: (PRINTLAG)      F
+ Diagonalize matrix of Lag. Multipliers: (DIAGLAG)       F
+
+------------------------------------------------------------------------
+
+ Orbital Space
+ -------------
+
+ Inactive Doubly occupied orbitals up to NO1  =    0
+ No. considered Strongly Doubly occupied MOs  =   11
+ No. considered Strongly Singly occupied MOs  =    0
+ No. of Weakly occ. per St. Doubly occ.  MOs  =    3
+ Dimension of the Active Nat. Orb. subspace   =   44
+ Secondary Empty orbitals                     =    1
+
+ 1e- integrals
+ -------------
+ Time to do integrals =      0.00
+ Guess for MOs = HCORE
+        81 MOs were matched and         0 equalized to zero
+
+ 2e- integrals
+ -------------
+ DONTW option skips storage 2e- integrals on Unit 1
+              142422 2e- integrals in     1 records
+ Time to do integrals =      0.03
+
+ Distribution Full ERIs:
+
+ Integrals:                            142422
+ Max size per slaves:                   35606
+ Max size in master:                   178028
+
+ Input for Coefficients is HCORE
+
+
+  RESULTS OF OCCUPATION-COEFFICIENT OPTIMIZATION
+ ================================================
+
+  Ex It  Orb It    Electronic Energy     Total Energy   Energy Convergency    Max Mul-Lag Diff
+
+    1      10      -236.6761663838     -175.9511025318    -6.8993272878           0.561789
+    2      10      -240.6665675092     -179.9415036571    -3.9904011253           0.348696
+    3      10      -242.6573590543     -181.9322952023    -1.9907915452           0.206753
+    4      10      -243.5265187809     -182.8014549289    -0.8691597266           0.120082
+    5      10      -243.8679158288     -183.1428519767    -0.3413970479           0.107975
+    6      10      -244.0818347391     -183.3567708871    -0.2139189103           0.116128
+    7      10      -244.2254519654     -183.5003881134    -0.1436172263           0.125103
+    8      10      -244.3599718287     -183.6349079767    -0.1345198633           0.146880
+    9      10      -244.4798473447     -183.7547834926    -0.1198755159           0.152808
+   10      10      -244.5804831812     -183.8554193292    -0.1006358366           0.150124
+   11      10      -244.6572873013     -183.9322234493    -0.0768041201           0.136643
+   12      10      -244.7147743776     -183.9897105256    -0.0574870763           0.113069
+   13      10      -244.7578388334     -184.0327749814    -0.0430644558           0.083855
+   14      10      -244.7855703055     -184.0605064535    -0.0277314721           0.048836
+   15      10      -244.7986768689     -184.0736130169    -0.0131065634           0.020284
+   16      10      -244.8029963525     -184.0779325005    -0.0043194836           0.024550
+   17      10      -244.8059009614     -184.0808371093    -0.0029046088           0.021878
+   18      10      -244.8079639288     -184.0829000767    -0.0020629674           0.024166
+   19      10      -244.8095540695     -184.0844902175    -0.0015901408           0.021861
+   20      10      -244.8109243158     -184.0858604638    -0.0013702463           0.020062
+   21      10      -244.8117535010     -184.0866896489    -0.0008291851           0.020847
+   22      10      -244.8124143508     -184.0873504988    -0.0006608498           0.021568
+   23      10      -244.8125132577     -184.0874494057    -0.0000989069           0.023009
+   24      10      -244.8130257636     -184.0879619115    -0.0005125059           0.024215
+   25      10      -244.8130548446     -184.0879909926    -0.0000290810           0.022043
+   26      10      -244.8133628366     -184.0882989845    -0.0003079920           0.022266
+   27      10      -244.8133558337     -184.0882919817     0.0000070029           0.020204
+   28      20      -244.8154737075     -184.0904098555    -0.0021178738           0.001289
+   29      20      -244.8155625639     -184.0904987118    -0.0000888564           0.000573
+   30      20      -244.8156381691     -184.0905743170    -0.0000756052           0.000472
+   31      20      -244.8157067292     -184.0906428771    -0.0000685601           0.000466
+   32      20      -244.8157680439     -184.0907041918    -0.0000613147           0.000500
+   33      20      -244.8158234111     -184.0907595591    -0.0000553673           0.000454
+   34      20      -244.8158730701     -184.0908092181    -0.0000496590           0.000445
+   35      20      -244.8159178386     -184.0908539866    -0.0000447685           0.000443
+   36      20      -244.8159573360     -184.0908934839    -0.0000394974           0.000495
+   37      20      -244.8159930965     -184.0909292445    -0.0000357605           0.000481
+   38      20      -244.8160236032     -184.0909597512    -0.0000305067           0.000464
+   39      30      -244.8160601373     -184.0909962852    -0.0000365340           0.000235
+   40      30      -244.8160879840     -184.0910241319    -0.0000278467           0.000222
+   41      40      -244.8161157180     -184.0910518660    -0.0000277340           0.000073
+   42      40      -244.8161169884     -184.0910531363    -0.0000012704           0.000076
+
+
+  RESULTS OF THE OCCUPATION OPTIMIZATION
+ ========================================
+
+   OM     Occupation      Elag Diag
+
+    1      1.9999809    -20.6801530
+    2      1.9998781    -15.7731980
+    3      1.9998737    -15.7716720
+    4      1.9932057     -1.5968182
+    5      1.9884432     -1.2224627
+    6      1.9834258     -0.8560010
+    7      1.9808828     -0.7031146
+    8      1.9787112     -0.9375199
+    9      1.9717680     -0.6948060
+   10      1.9607660     -0.5998035
+   11      1.9604695     -0.6115319
+   12      0.0356855     -0.0557789
+   13      0.0362708     -0.0564342
+   14      0.0244560     -0.0468907
+   15      0.0178743     -0.0327153
+   16      0.0073075     -0.0119501
+   17      0.0084223     -0.0196964
+   18      0.0068267     -0.0171486
+   19      0.0028886     -0.0073592
+   20      0.0000477     -0.0007791
+   21      0.0000482     -0.0007874
+   22      0.0000098     -0.0001863
+   23      0.0016787     -0.0040540
+   24      0.0021652     -0.0042376
+   25      0.0014909     -0.0042989
+   26      0.0023768     -0.0053759
+   27      0.0067255     -0.0113085
+   28      0.0041964     -0.0093699
+   29      0.0022348     -0.0058214
+   30      0.0014861     -0.0048746
+   31      0.0000638     -0.0010640
+   32      0.0000417     -0.0006919
+   33      0.0000077     -0.0001470
+   34      0.0021663     -0.0042525
+   35      0.0007980     -0.0020947
+   36      0.0022850     -0.0064373
+   37      0.0010378     -0.0026774
+   38      0.0050842     -0.0105887
+   39      0.0039556     -0.0087454
+   40      0.0024953     -0.0057114
+   41      0.0024197     -0.0080266
+   42      0.0000147     -0.0002328
+   43      0.0000320     -0.0005224
+   44      0.0000016     -0.0000316
+
+   RO Sum (  22) =   22.00
+
+  ---------------
+   Dipole Moment
+  ---------------
+
+      0.5889 Debye [   0.2317  (   0.0004,  -0.0003,  -0.2317) ]
+
+ ----------------
+  Final Energies  
+ ----------------
+
+  Final NOF Total Energy =     -184.0910531363 ( 8.E-05 , 0.E+00 )
+
+
+  **************************************************
+  *                                                *
+  *       SINGLE-POINT DoNOF CALCULATION           *
+  *                                                *
+  *             FULL OPTIMIZATION                  *
+  *                                                *
+  *  FINAL RESULTS   FINAL RESULTS  FINAL RESULTS  *
+  *                                                *
+  **************************************************
+
+  **************************************************
+  *         No. EXTERNAL ITER =    42              *
+  *         No. of TOTAL ITER =   630              *
+  **************************************************
+
+  Elapsed real time :     17.61  (Seconds)
+  Git sha : bcb372acca69df19ae91719c988dea244a3c3d1c                                                            
+
+ The execution finished at 11h 12min on the 11/21/2024

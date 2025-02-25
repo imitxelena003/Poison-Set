@@ -1,0 +1,232 @@
+ This is the serial version of the code
+
+ The execution started at 17h 23min on the 12/ 4/2024
+
+    ===========================================================
+    !                                                         !
+    !                        Do N O F                         !
+    !                                                         !
+    !  (Donostia Natural Orbital Functional Software Program) !
+    !                                                         !
+    !               COPYRIGHT by Mario Piris                  !
+    !                                                         !
+    !      Donostia International Physics Center (DIPC)       !
+    !       University of the Basque Country (UPV/EHU)        !
+    !       Basque Foundation for Science (IKERBASQUE)        !
+    !                                                         !
+    !          GNU General Public License version 3           !
+    !                                                         !
+    !                  VERSION: Mayo 2024                     !
+    !                                                         !
+    ===========================================================
+
+ Run Title
+ ---------
+ p30-5 set                                                                       
+
+ Basis Set
+ ---------
+ /home/ion/P30-20/pnof7/def2-svp.bas                                             
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ BE          4.0        0.0000        0.0000        0.0000
+ H           1.0        0.0000        0.0000       -2.5279
+ H           1.0        0.0000        0.0000        2.5279
+
+ Atomic Basis Set
+ ----------------
+ The contracted primitive functions were unnormalized
+ The contracted basis functions are now normalized to unity
+
+  Shell Type  Primitive         Exponent  Contraction Coefficient
+
+ BE        
+ 
+      1   S       1           515.1861613    0.005837635441
+      1   S       2            77.5110376    0.043234967111
+      1   S       3            17.5524817    0.188026956444
+      1   S       4             4.8028941    0.469576904234
+      1   S       5             1.4516214    0.440951660947
+ 
+      2   S       6             0.1328163    1.000000000000
+ 
+      3   S       7             0.0458374    1.000000000000
+ 
+      4   P       8             3.6316917   -0.045461968666
+      4   P       9             0.7169569   -0.264276543343
+      4   P      10             0.1954193   -0.804884200890
+ 
+      5   P      11             0.0605155    1.000000000000
+
+ H         
+ 
+      6   S      12            13.0107010    0.033485484813
+      6   S      13             1.9622572    0.234721870881
+      6   S      14             0.4445380    0.813770285260
+ 
+      7   S      15             0.1219496    1.000000000000
+ 
+      8   P      16             0.8000000    1.000000000000
+
+ H         
+ 
+      9   S      17            13.0107010    0.033485484813
+      9   S      18             1.9622572    0.234721870881
+      9   S      19             0.4445380    0.813770285260
+ 
+     10   S      20             0.1219496    1.000000000000
+ 
+     11   P      21             0.8000000    1.000000000000
+
+ Total Number of Basis Set Shells             =   11
+ Total Number of Primitives                   =   21
+ Number of Cartesian Gaussian Basis Functions =   19
+ Number of Electrons                          =    6
+ Charge of Molecule                           =    0
+ Spin Multiplicity                            =    1
+ Number of Occupied Orbitals (Alpha)          =    3
+ Number of Occupied Orbitals (Beta )          =    3
+ Total Number of Atoms                        =    3
+
+ Input Run Options
+ -----------------
+ IRUNTYP = 1  MULT = 1  ICHARG =  0 IECP = 0  IEMOM = 1  UNITS = ANGS    
+
+ Integral Options
+ ----------------
+ CUTOFF = 1.0E-09   ISCHWZ = 0   ERITYP = FULL
+
+ Input NOF Options
+ -----------------
+
+ Type of calculation =    Coeff. Opt.:   (ICOEF)         1
+ Use Softmax function for Occ. Opt.:     (ISOFTMAX)      1
+ Type of Orb. Opt. = Orbital Rotations:  (IORBOPT)       4
+ Maximum Number of Occ-Coef Outer Iter.: (MAXIT)      1000
+
+ Natural Orbital Functional Selected:    (IPNOF)         7
+ 
+ Restart calculation Option:             (RESTART)       T
+ Orthogonalize the initial Orbitals:     (ORTHO)         T
+
+ Output Option:                          (NPRINT)        0
+ Output the Coefficient Matrix:          (IWRITEC)       0
+ Do a Mulliken Population Analysis:      (IMULPOP)       0
+ Write Information into a WFN file:      (IAIMPAC)       1
+ Write Information into a FCHK file:     (IFCHK)         1
+ Write Information into a MLP file:      (MOLDEN)        1
+ Create Ini. Cond. (ini.xyz) file:       (INICOND)       1
+ Calculate IPs using Ext. Koopmans Theo: (IEKT)          0
+ Write APSG expansion coefficient file:  (APSG)          F
+ Output option for Lagrange Multipliers: (PRINTLAG)      F
+ Diagonalize matrix of Lag. Multipliers: (DIAGLAG)       F
+
+ Nuclear Coordinates from GCF file:
+ ----------------------------------
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ BE       4.00000        0.0000        0.0000        0.0000
+ H        1.00000        0.0000        0.0000       -2.5279
+ H        1.00000        0.0000        0.0000        2.5279
+
+------------------------------------------------------------------------
+
+ Orbital Space
+ -------------
+
+ Inactive Doubly occupied orbitals up to NO1  =    0
+ No. considered Strongly Doubly occupied MOs  =    3
+ No. considered Strongly Singly occupied MOs  =    0
+ No. of Weakly occ. per St. Doubly occ.  MOs  =    5
+ Dimension of the Active Nat. Orb. subspace   =   18
+ Secondary Empty orbitals                     =    1
+
+ 1e- integrals
+ -------------
+ Time to do integrals =      0.00
+
+ 2e- integrals
+ -------------
+ DONTW option skips storage 2e- integrals on Unit 1
+                5653 2e- integrals in     1 records
+ Time to do integrals =      0.01
+
+ No violations of the orthonormality
+
+
+  RESULTS OF OCCUPATION-COEFFICIENT OPTIMIZATION
+ ================================================
+
+  Ex It  Occ Time  Orb Time  Orb It   Electronic Energy     Total Energy   Energy Convergency    Max Mul-Lag Diff
+
+    1    9.2E-03   1.8E-02      10     -19.1661912003      -15.8037371098    -0.0030323959           0.006391
+    2    9.6E-03   1.8E-02      10     -19.1673607997      -15.8049067093    -0.0011695995           0.004716
+    3    7.7E-03   1.8E-02      10     -19.1678411424      -15.8053870520    -0.0004803427           0.004435
+    4    8.6E-03   1.8E-02      10     -19.1681061765      -15.8056520861    -0.0002650342           0.004897
+    5    6.5E-03   1.4E-02      10     -19.1682313219      -15.8057772315    -0.0001251454           0.004396
+    6    6.7E-03   1.4E-02      10     -19.1682891729      -15.8058350824    -0.0000578509           0.004816
+    7    5.1E-03   1.4E-02      10     -19.1683282824      -15.8058741920    -0.0000391095           0.004086
+    8    4.9E-03   1.4E-02      10     -19.1683167448      -15.8058626543     0.0000115376           0.004556
+    9    4.3E-03   2.6E-02      20     -19.1684083953      -15.8059543049    -0.0000916506           0.000290
+   10    4.5E-03   3.8E-02      30     -19.1684135653      -15.8059594749    -0.0000051700           0.000053
+
+
+  RESULTS OF THE OCCUPATION OPTIMIZATION
+ ========================================
+
+   OM     Occupation      Elag Diag
+
+    1      1.9999578     -4.6907007
+    2      1.9716316     -0.4852394
+    3      1.9716133     -0.4848916
+    4      0.0071040     -0.0046257
+    5      0.0145888     -0.0088421
+    6      0.0000211     -0.0001146
+    7      0.0148800     -0.0089569
+    8      0.0031851     -0.0027244
+    9      0.0000026     -0.0000120
+   10      0.0001879     -0.0002112
+   11      0.0034379     -0.0027869
+   12      0.0000022     -0.0000087
+   13      0.0030123     -0.0026547
+   14      0.0069355     -0.0046014
+   15      0.0000150     -0.0000853
+   16      0.0032025     -0.0027232
+   17      0.0002210     -0.0002186
+   18      0.0000014     -0.0000062
+
+   RO Sum (   6) =    6.00
+
+  ---------------
+   Dipole Moment
+  ---------------
+
+      0.0068 Debye [   0.0027  (  -0.0001,   0.0002,   0.0027) ]
+
+ ----------------
+  Final Energies  
+ ----------------
+
+  Final NOF Total Energy =      -15.8059594749 ( 5.E-05 , 0.E+00 )
+
+
+  **************************************************
+  *                                                *
+  *       SINGLE-POINT DoNOF CALCULATION           *
+  *                                                *
+  *             FULL OPTIMIZATION                  *
+  *                                                *
+  *  FINAL RESULTS   FINAL RESULTS  FINAL RESULTS  *
+  *                                                *
+  **************************************************
+
+  **************************************************
+  *         No. EXTERNAL ITER =    10              *
+  *         No. of TOTAL ITER =   130              *
+  **************************************************
+
+  Elapsed real time :      0.28  (Seconds)
+
+ The execution finished at 17h 23min on the 12/ 4/2024
