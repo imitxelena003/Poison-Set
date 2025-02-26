@@ -41,6 +41,14 @@ mkdir new_files #fill with new files
 Para construir el book localmente y visualizarlo en el navegador:
 ``` bash
 cd jb
+for set in P30-5 P30-10 P30-20; do
+  echo $set;
+  for method in PNOF5 PNOF7 GNOF; do
+    echo $method;
+    julia analyzer.jl #Crea los yaml
+    cp ../${set}/${method}/*.yaml .;
+  done;
+done
 conda activate jb
 rm -r _build
 jupyter book build .
