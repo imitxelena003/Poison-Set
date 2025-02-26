@@ -4,25 +4,47 @@ The benchmark employed here to test NOF approximations was developed by Gould an
 Energies given by the GNOF, PNOF5, and PNOF7 approximations are given for each set separately, along with the reference energies and corresponding errors.
 The chemical systems involved in the reactions can be found in the YAML files from https://github.com/stephengdale/poison-set/tree/main
 
-# Para actualizar los archivos
+## Actualizar los archivos de cada set
 
-- Colocarse dentro del set, p. ej.
-```
-cd P30-5
-```
+- Colocarse dentro del set.
 - Crear una carpeta y llenarla con los nuevos archivos (el nombre no importa)
-```
+- Ejecutar el script best.sh. P. ej.:
+``` bash
+cd P30-5
 mkdir new_files
+./best.sh
 ```
-- Ejecutar el script best.sh:
-```
-  ./best.sh
-```
+
 
 > [!TIP]
+> Dentro de la carpeta de cada set:
 > - `best.sh` hace un loop sobre PNOF5, PNOF7 y GNOF
->   - Lista todos los archivos *.out en el directorio y subdirectorios del set
->   - Compara la energía de cada archivo con la de la carpeta principal del NOF
->   - Si la energía es menor o el archivo no existe en el directorio principal, copia los archivos.
+>   - Lista todos los archivos *.out en el directorio y subdirectorios
+>   - Compara la energía de cada archivo con la de la carpeta principal del NOF (PNOF5, PNOF7, GNOF)
+>   - Si la energía del archivo de prueba es menor o el archivo no existe en el directorio principal, copia los archivos.
 >
 > No importa el orden ni el nombre de los subdirectorios, solo que sean del set correcto.
+
+## Generar el Jupyter Book
+
+>[!NOTE]
+> Esto requiere tener instalado Anaconda y Jupyter Book
+> ```
+> conda create -n jb -y
+> conda activate jb
+> conda install python
+> pip install jupyter-book
+> ```
+
+Para construir el book localmente y visualizaro en el navegador:
+```
+cd jb
+conda activate jb
+rm -r _build
+jupyter book build .
+```
+
+Para subir el Jupyter Book local a internet:
+```
+ghp-import -n -p -f _build/html
+```
