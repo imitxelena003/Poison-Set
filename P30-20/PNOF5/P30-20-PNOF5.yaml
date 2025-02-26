@@ -76,183 +76,183 @@ MB16-43:
   24:
     Species:
       MB16-43_23_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 2
       MB16-43_23_24:
-        E_NOF: -1717.7047967999
+        E_NOF: -1718.1752247344
         Count: -2
       MB16-43_23_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -8
       MB16-43_23_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_23_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 1
       MB16-43_23_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 4
       MB16-43_23_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_23_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
-    dE_NOF: 0.550506652599779
+    dE_NOF: 3436.3504494688
     APD: 100.0
     AD: 100.0
     dE_Ref: 1070.64
   32:
     Species:
       MB16-43_31_N2:
-        E_NOF: -108.9619117384
+        E_NOF: 0
         Count: 1
       MB16-43_31_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 1
       MB16-43_31_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 2
       MB16-43_31_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_31_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -11
       MB16-43_31_LiH:
-        E_NOF: -8.0066050129
+        E_NOF: 0
         Count: 2
       MB16-43_31_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 6
       MB16-43_31_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 2
       MB16-43_31_32:
-        E_NOF: -1266.3586038682
+        E_NOF: -1266.7583259545
         Count: -2
-    dE_NOF: -0.1060792510003239
+    dE_NOF: 2533.516651909
     APD: 100.0
     AD: 100.0
     dE_Ref: 685.58
   4:
     Species:
       MB16-43_3_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -17
       MB16-43_3_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_3_CH4:
         E_NOF: -40.275626696
         Count: 2
       MB16-43_3_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 6
       MB16-43_3_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_3_04:
         E_NOF: -1109.6896597954
         Count: -2
       MB16-43_3_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_3_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
-    dE_NOF: -0.5802184341998782
+    dE_NOF: 2138.8280661988
     APD: 100.0
     AD: 100.0
     dE_Ref: 356.85
   2:
     Species:
       MB16-43_1_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
       MB16-43_1_LiH:
-        E_NOF: -8.0066050129
+        E_NOF: 0
         Count: 2
       MB16-43_1_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 2
       MB16-43_1_02:
-        E_NOF: -1518.4496946361
+        E_NOF: -1518.7786939379
         Count: -2
       MB16-43_1_MgH2:
-        E_NOF: -200.707016553
+        E_NOF: 0
         Count: 2
       MB16-43_1_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 2
       MB16-43_1_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_1_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -6
       MB16-43_1_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
-    dE_NOF: 0.2775299589002316
+    dE_NOF: 3037.5573878758
     APD: 100.0
     AD: 100.0
     dE_Ref: 737.79
   23:
     Species:
       MB16-43_22_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_22_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_22_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_22_23:
         E_NOF: -1475.9034320097
         Count: -2
       MB16-43_22_Cl2:
-        E_NOF: -918.7279995144
+        E_NOF: 0
         Count: 1
       MB16-43_22_MgH2:
         E_NOF: -200.707016553
         Count: 2
       MB16-43_22_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -20
       MB16-43_22_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 8
-    dE_NOF: -0.9199512115995958
+    dE_NOF: 2550.3928309134003
     APD: 100.0
     AD: 100.0
     dE_Ref: 215.39
   22:
     Species:
       MB16-43_21_MgH2:
-        E_NOF: -200.707016553
+        E_NOF: 0
         Count: 2
       MB16-43_21_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 2
       MB16-43_21_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_21_P2:
-        E_NOF: -681.3174749021
+        E_NOF: 0
         Count: 1
       MB16-43_21_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 6
       MB16-43_21_22:
         E_NOF: -867.9546098455
         Count: -2
       MB16-43_21_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -3
-    dE_NOF: 0.18512623540027562
+    dE_NOF: 1735.909219691
     APD: 100.0
     AD: 100.0
     dE_Ref: 706.2
@@ -262,129 +262,129 @@ MB16-43:
         E_NOF: -794.8276479367
         Count: 2
       MB16-43_40_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -16
       MB16-43_40_NaH:
-        E_NOF: -162.3506666037
+        E_NOF: 0
         Count: 2
       MB16-43_40_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
       MB16-43_40_41:
-        E_NOF: -1464.2103539379
+        E_NOF: -1464.5725876102
         Count: -2
       MB16-43_40_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 6
       MB16-43_40_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_40_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
-    dE_NOF: -0.7269981291999557
+    dE_NOF: 1339.4898793469997
     APD: 100.0
     AD: 100.0
     dE_Ref: 160.29
   35:
     Species:
       MB16-43_34_P2:
-        E_NOF: -681.3174749021
+        E_NOF: 0
         Count: 1
       MB16-43_34_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 4
       MB16-43_34_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -20
       MB16-43_34_Cl2:
-        E_NOF: -918.7279995144
+        E_NOF: 0
         Count: 1
       MB16-43_34_LiH:
-        E_NOF: -8.0066050129
+        E_NOF: 0
         Count: 2
       MB16-43_34_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 2
       MB16-43_34_35:
-        E_NOF: -1782.7845116578
+        E_NOF: -1783.1633766851
         Count: -2
       MB16-43_34_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
       MB16-43_34_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 4
       MB16-43_34_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
-    dE_NOF: -0.7050111923996383
+    dE_NOF: 3566.3267533702
     APD: 100.0
     AD: 100.0
     dE_Ref: 228.18
   15:
     Species:
       MB16-43_14_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_14_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 1
       MB16-43_14_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -15
       MB16-43_14_NaH:
-        E_NOF: -162.3506666037
+        E_NOF: 0
         Count: 2
       MB16-43_14_Cl2:
-        E_NOF: -918.7279995144
+        E_NOF: 0
         Count: 1
       MB16-43_14_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_14_15:
         E_NOF: 0
         Count: -2
       MB16-43_14_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_14_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
-    dE_NOF: -3859.4289890314
+    dE_NOF: 0.0
     APD: 100.0
     AD: 100.0
     dE_Ref: 216.1
   31:
     Species:
       MB16-43_30_Cl2:
-        E_NOF: -918.7279995144
+        E_NOF: 0
         Count: 1
       MB16-43_30_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_30_31:
-        E_NOF: -2328.1290011463
+        E_NOF: -2328.537925191
         Count: -2
       MB16-43_30_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
       MB16-43_30_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_30_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -8
       MB16-43_30_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_30_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_30_P2:
-        E_NOF: -681.3174749021
+        E_NOF: 0
         Count: 4
-    dE_NOF: -0.2742040507001775
+    dE_NOF: 4657.075850382
     APD: 100.0
     AD: 100.0
     dE_Ref: 534.9
@@ -397,10 +397,10 @@ MB16-43:
         E_NOF: -108.9619117384
         Count: 2
       MB16-43_4_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
       MB16-43_4_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -4
       MB16-43_4_05:
         E_NOF: -2272.3683052125
@@ -411,40 +411,40 @@ MB16-43:
       MB16-43_4_SiH4:
         E_NOF: -291.2452160515
         Count: 2
-    dE_NOF: -0.8518549471992856
+    dE_NOF: 100.32445572240056
     APD: 100.0
     AD: 100.0
     dE_Ref: 147.68
   42:
     Species:
       MB16-43_41_42:
-        E_NOF: -1317.3977609012
+        E_NOF: -1317.8554566093
         Count: -2
       MB16-43_41_N2:
-        E_NOF: -108.9619117384
+        E_NOF: 0
         Count: 1
       MB16-43_41_P2:
-        E_NOF: -681.3174749021
+        E_NOF: 0
         Count: 1
       MB16-43_41_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 2
       MB16-43_41_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_41_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 4
       MB16-43_41_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 2
       MB16-43_41_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -11
       MB16-43_41_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
-    dE_NOF: 0.011686391599710078
+    dE_NOF: 2635.7109132186
     APD: 100.0
     AD: 100.0
     dE_Ref: 754.65
@@ -454,27 +454,27 @@ MB16-43:
         E_NOF: -1185.8215552704
         Count: -2
       MB16-43_42_N2:
-        E_NOF: -108.9619117384
+        E_NOF: 0
         Count: 3
       MB16-43_42_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 2
       MB16-43_42_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_42_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_42_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_42_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_42_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -7
-    dE_NOF: -0.45498898319988257
+    dE_NOF: 2371.6431105408
     APD: 100.0
     AD: 100.0
     dE_Ref: 421.97
@@ -484,213 +484,213 @@ MB16-43:
         E_NOF: -579.7373434158
         Count: -2
       MB16-43_27_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_27_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_27_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_27_N2:
-        E_NOF: -108.9619117384
+        E_NOF: 0
         Count: 2
       MB16-43_27_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
-    dE_NOF: 0.26062239909987284
+    dE_NOF: 1159.4746868316
     APD: 100.0
     AD: 100.0
     dE_Ref: 325.12
   16:
     Species:
       MB16-43_15_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_15_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -19
       MB16-43_15_MgH2:
-        E_NOF: -200.707016553
+        E_NOF: 0
         Count: 4
       MB16-43_15_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_15_LiH:
         E_NOF: -8.0066050129
         Count: 2
       MB16-43_15_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 6
       MB16-43_15_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_15_16:
         E_NOF: -1378.2990473539
         Count: -2
-    dE_NOF: -0.6638450169998578
+    dE_NOF: 2740.584884682
     APD: 100.0
     AD: 100.0
     dE_Ref: 326.76
   14:
     Species:
       MB16-43_13_14:
-        E_NOF: -1368.1551612612
+        E_NOF: -1368.4604021226
         Count: -2
       MB16-43_13_LiH:
-        E_NOF: -8.0066050129
+        E_NOF: 0
         Count: 2
       MB16-43_13_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 2
       MB16-43_13_Cl2:
-        E_NOF: -918.7279995144
+        E_NOF: 0
         Count: 1
       MB16-43_13_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -9
       MB16-43_13_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_13_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 4
       MB16-43_13_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
-    dE_NOF: -0.34111259940004857
+    dE_NOF: 2736.9208042452
     APD: 100.0
     AD: 100.0
     dE_Ref: 384.89
   40:
     Species:
       MB16-43_39_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_39_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 6
       MB16-43_39_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_39_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -26
       MB16-43_39_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 6
       MB16-43_39_40:
         E_NOF: -1064.772371829
         Count: -2
       MB16-43_39_N2:
-        E_NOF: -108.9619117384
+        E_NOF: 0
         Count: 1
-    dE_NOF: -1.8092530540002372
+    dE_NOF: 2129.544743658
     APD: 100.0
     AD: 100.0
     dE_Ref: -362.98
   21:
     Species:
       MB16-43_20_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 4
       MB16-43_20_NaH:
         E_NOF: -162.3506666037
         Count: 2
       MB16-43_20_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -7
       MB16-43_20_MgH2:
-        E_NOF: -200.707016553
+        E_NOF: 0
         Count: 4
       MB16-43_20_Cl2:
-        E_NOF: -918.7279995144
+        E_NOF: 0
         Count: 1
       MB16-43_20_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 2
       MB16-43_20_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 2
       MB16-43_20_21:
-        E_NOF: -1682.5229084931
+        E_NOF: -1682.8410428929
         Count: -2
-    dE_NOF: 0.41822995549932784
+    dE_NOF: 3040.9807525784
     APD: 100.0
     AD: 100.0
     dE_Ref: 806.23
   38:
     Species:
       MB16-43_37_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 1
       MB16-43_37_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 2
       MB16-43_37_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_37_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -12
       MB16-43_37_38:
-        E_NOF: -1831.7529290474
+        E_NOF: -1832.1625625206
         Count: -2
       MB16-43_37_N2:
-        E_NOF: -108.9619117384
+        E_NOF: 0
         Count: 2
       MB16-43_37_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_37_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 4
       MB16-43_37_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_37_P2:
-        E_NOF: -681.3174749021
+        E_NOF: 0
         Count: 1
-    dE_NOF: -0.9711640140001236
+    dE_NOF: 3664.3251250412
     APD: 100.0
     AD: 100.0
     dE_Ref: 98.19
   34:
     Species:
       MB16-43_33_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 2
       MB16-43_33_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_33_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -10
       MB16-43_33_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_33_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 2
       MB16-43_33_34:
-        E_NOF: -1440.3910837289
+        E_NOF: -1440.8148171412
         Count: -2
       MB16-43_33_N2:
-        E_NOF: -108.9619117384
+        E_NOF: 0
         Count: 1
       MB16-43_33_MgH2:
-        E_NOF: -200.707016553
+        E_NOF: 0
         Count: 2
       MB16-43_33_P2:
-        E_NOF: -681.3174749021
+        E_NOF: 0
         Count: 1
       MB16-43_33_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_33_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 2
-    dE_NOF: -0.2327926669000817
+    dE_NOF: 2881.6296342824
     APD: 100.0
     AD: 100.0
     dE_Ref: 538.26
@@ -706,7 +706,7 @@ MB16-43:
         E_NOF: -26.4574760583
         Count: 6
       MB16-43_7_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 4
       MB16-43_7_O2:
         E_NOF: -149.5385499531
@@ -720,142 +720,142 @@ MB16-43:
       MB16-43_7_AlH3:
         E_NOF: -243.6304812026
         Count: 2
-    dE_NOF: 0.8639010110998697
+    dE_NOF: 161.96640779509988
     APD: 100.0
     AD: 100.0
     dE_Ref: 681.96
   19:
     Species:
       MB16-43_18_LiH:
-        E_NOF: -8.0066050129
+        E_NOF: 0
         Count: 2
       MB16-43_18_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 1
       MB16-43_18_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 4
       MB16-43_18_19:
-        E_NOF: -1796.9555738785
+        E_NOF: -1797.3292730079
         Count: -2
       MB16-43_18_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_18_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 4
       MB16-43_18_P2:
-        E_NOF: -681.3174749021
+        E_NOF: 0
         Count: 2
       MB16-43_18_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -7
       MB16-43_18_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
-    dE_NOF: 0.027925365699957183
+    dE_NOF: 3594.6585460158
     APD: 100.0
     AD: 100.0
     dE_Ref: 664.56
   37:
     Species:
       MB16-43_36_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
       MB16-43_36_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -19
       MB16-43_36_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 2
       MB16-43_36_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 2
       MB16-43_36_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_36_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_36_37:
-        E_NOF: -1713.5280409339
+        E_NOF: -1713.9696847739
         Count: -2
       MB16-43_36_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 8
       MB16-43_36_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 2
-    dE_NOF: -0.19502521550020901
+    dE_NOF: 3427.9393695478
     APD: 100.0
     AD: 100.0
     dE_Ref: 629.78
   30:
     Species:
       MB16-43_29_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 2
       MB16-43_29_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 1
       MB16-43_29_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -12
       MB16-43_29_BH3:
-        E_NOF: -26.4574760583
+        E_NOF: 0
         Count: 2
       MB16-43_29_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 5
       MB16-43_29_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_29_LiH:
-        E_NOF: -8.0066050129
+        E_NOF: 0
         Count: 4
       MB16-43_29_30:
         E_NOF: 0
         Count: -2
       MB16-43_29_SiH4:
-        E_NOF: -291.2452160515
+        E_NOF: 0
         Count: 2
-    dE_NOF: -3009.4150091353
+    dE_NOF: 0.0
     APD: 100.0
     AD: 100.0
     dE_Ref: 1290.74
   3:
     Species:
       MB16-43_2_CH4:
-        E_NOF: -40.275626696
+        E_NOF: 0
         Count: 6
       MB16-43_2_H2:
-        E_NOF: -1.1633983909
+        E_NOF: 0
         Count: -13
       MB16-43_2_AlH3:
-        E_NOF: -243.6304812026
+        E_NOF: 0
         Count: 2
       MB16-43_2_03:
-        E_NOF: -1299.413928419
+        E_NOF: -1299.7867217424
         Count: -2
       MB16-43_2_O2:
-        E_NOF: -149.5385499531
+        E_NOF: 0
         Count: 1
       MB16-43_2_NaH:
-        E_NOF: -162.3506666037
+        E_NOF: 0
         Count: 2
       MB16-43_2_LiH:
-        E_NOF: -8.0066050129
+        E_NOF: 0
         Count: 2
       MB16-43_2_MgH2:
-        E_NOF: -200.707016553
+        E_NOF: 0
         Count: 2
       MB16-43_2_S2:
-        E_NOF: -794.8276479367
+        E_NOF: 0
         Count: 1
       MB16-43_2_F2:
-        E_NOF: -198.6608243642
+        E_NOF: 0
         Count: 1
-    dE_NOF: -0.11828525470014029
+    dE_NOF: 2599.5734434848
     APD: 100.0
     AD: 100.0
     dE_Ref: 518.66
