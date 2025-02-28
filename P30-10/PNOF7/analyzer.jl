@@ -66,7 +66,7 @@ function get_nof_E(nof, filename)
                 dir = build_path(rootdir, setname, nof, mol)
                 Emol = get_nof_fromfile(dir)
                 if Emol < 0
-                    println(filename[1:end-4], " not found, using ", mol, " in ", setname)
+                    #println(filename[1:end-4], " not found, using ", mol, " in ", setname)
                     return Emol
                 end
             end
@@ -133,6 +133,8 @@ YAML.write_file(superset * "-" * nof * ".yaml", results)
 
 #### Print results in terminal (just for visualization of data)
 
+MAD_P30 = []
+
 MADs = Dict()
 MAPDs = Dict()
 for (set_name, set) in results
@@ -153,6 +155,7 @@ for (set_name, set) in results
         end
         AD = system["AD"]
         push!(ADs, AD)
+        push!(MAD_P30, AD)
         APD = system["APD"]
         push!(APDs, APD)
         @printf("  dE NOF: %.4f   AD: %.1f\n", dE_NOF * 627.15, AD)
@@ -160,6 +163,8 @@ for (set_name, set) in results
     MADs[set_name] = mean(ADs)
     MAPDs[set_name] = mean(APDs)
 end
+
+@printf("MAD P30: %.2f \n", mean(MAD_P30))
 
 # For plotting
 
