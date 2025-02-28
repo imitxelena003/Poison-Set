@@ -6,15 +6,18 @@ root: intro
 parts:
 - caption: Extended Pairing
   chapters:
-  - file: P30-20-GNOF.ipynb
+  - file: P30-20-All.ipynb
     sections:
+    - file: P30-20-GNOF.ipynb
     - file: P30-20-PNOF7.ipynb
     - file: P30-20-PNOF5.ipynb
-  - file: P30-10-GNOF.ipynb
+  - file: P30-10-All.ipynb
     sections:
+    - file: P30-10-GNOF.ipynb
     - file: P30-10-PNOF7.ipynb
     - file: P30-10-PNOF5.ipynb
-  - file: P30-5-GNOF.ipynb
+  - file: P30-5-All.ipynb
     sections:
+    - file: P30-5-GNOF.ipynb
     - file: P30-5-PNOF7.ipynb
     - file: P30-5-PNOF5.ipynb
