@@ -15,7 +15,7 @@ Current data (.inp, .out, .gcf, .fchk and .mld) files can be found at: https://g
 
 Calculations were performed using [DoNOF software](https://github.com/DoNOF/DoNOFsw) 
 
-# ![Donostia Natural Orbital Functional Software](https://github.com/DoNOF/DoNOF-Documentation/blob/master/docs/Logo-DoNOF.jpeg)
+# ![Donostia Natural Orbital Functional Software](https://raw.githubusercontent.com/DoNOF/DoNOF-Documentation/refs/heads/master/docs/Logo-DoNOF.jpeg)
 
 |📫 **Contact us:**    | DoNOFsw@gmail.com                         |
 |:------------------|-------------------------------------------|
