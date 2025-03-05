@@ -12,3 +12,11 @@ By studying the performance of the current Natural Orbital Functinals, we aim to
 :class: note
 Current data (.inp, .out, .gcf, .fchk and .mld) files can be found at: https://github.com/imitxelena003/Poison-Set
 ```
+
+Calculations were performed using [DoNOF software](https://github.com/DoNOF/DoNOFsw) 
+
+# ![Donostia Natural Orbital Functional Software](https://github.com/DoNOF/DoNOF-Documentation/blob/master/docs/Logo-DoNOF.jpeg)
+
+|📫 **Contact us:**    | DoNOFsw@gmail.com                         |
+|:------------------|-------------------------------------------|
+|📖 **Documentation:** | https://donof-documentation.readthedocs.io|
