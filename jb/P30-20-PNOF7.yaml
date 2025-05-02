@@ -75,14 +75,14 @@ W4-11:
   131:
     Species:
       c:
-        E_NOF: -37.8295841535
-        Ncwo: 34
+        E_NOF: -37.8291555728
+        Ncwo: 23
         Count: 2
       W4-11_130_c2:
         E_NOF: 0
         Ncwo: 0
         Count: -1
-    dE_NOF: -75.659168307
+    dE_NOF: -75.6583111456
     APD: 100.0
     AD: 100.0
     dE_Ref: 147.02

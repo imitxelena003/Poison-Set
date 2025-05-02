@@ -1,0 +1,2 @@
+elem=p; i=116; j=$(echo "$i + 1" | bc);  echo "$j"; mv W4-11_${i}_${elem}.inp W4-11_${j}_${elem}.inp; mv W4-11_${i}_${elem}.gcf W4-11_${j}_${elem}.gcf; mv W4-11_${i}_${elem}.out W4-11_${j}_${elem}.out; rm W4-11_${i}_${elem}.*
+

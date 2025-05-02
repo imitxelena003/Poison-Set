@@ -1,0 +1,349 @@
+  344
+P  1  S 
+P  1  S 
+P  1  S 
+P  1  S 
+P  1  S 
+P  1  S 
+P  1  S 
+P  1  S 
+P  1  S 
+P  1  X 
+P  1  Y 
+P  1  Z 
+P  1  X 
+P  1  Y 
+P  1  Z 
+P  1  X 
+P  1  Y 
+P  1  Z 
+P  1  X 
+P  1  Y 
+P  1  Z 
+P  1  X 
+P  1  Y 
+P  1  Z 
+P  1  X 
+P  1  Y 
+P  1  Z 
+P  1 XX 
+P  1 YY 
+P  1 ZZ 
+P  1 XY 
+P  1 XZ 
+P  1 YZ 
+P  1 XX 
+P  1 YY 
+P  1 ZZ 
+P  1 XY 
+P  1 XZ 
+P  1 YZ 
+P  1 XX 
+P  1 YY 
+P  1 ZZ 
+P  1 XY 
+P  1 XZ 
+P  1 YZ 
+P  1 XX 
+P  1 YY 
+P  1 ZZ 
+P  1 XY 
+P  1 XZ 
+P  1 YZ 
+P  1 XXX
+P  1 YYY
+P  1 ZZZ
+P  1 XXY
+P  1 XXZ
+P  1 YYX
+P  1 YYZ
+P  1 ZZX
+P  1 ZZY
+P  1 XYZ
+P  1 XXX
+P  1 YYY
+P  1 ZZZ
+P  1 XXY
+P  1 XXZ
+P  1 YYX
+P  1 YYZ
+P  1 ZZX
+P  1 ZZY
+P  1 XYZ
+P  1XXXX
+P  1YYYY
+P  1ZZZZ
+P  1XXXY
+P  1XXXZ
+P  1YYYX
+P  1YYYZ
+P  1ZZZX
+P  1ZZZY
+P  1XXYY
+P  1XXZZ
+P  1YYZZ
+P  1XXYZ
+P  1YYXZ
+P  1ZZXY
+P  2  S 
+P  2  S 
+P  2  S 
+P  2  S 
+P  2  S 
+P  2  S 
+P  2  S 
+P  2  S 
+P  2  S 
+P  2  X 
+P  2  Y 
+P  2  Z 
+P  2  X 
+P  2  Y 
+P  2  Z 
+P  2  X 
+P  2  Y 
+P  2  Z 
+P  2  X 
+P  2  Y 
+P  2  Z 
+P  2  X 
+P  2  Y 
+P  2  Z 
+P  2  X 
+P  2  Y 
+P  2  Z 
+P  2 XX 
+P  2 YY 
+P  2 ZZ 
+P  2 XY 
+P  2 XZ 
+P  2 YZ 
+P  2 XX 
+P  2 YY 
+P  2 ZZ 
+P  2 XY 
+P  2 XZ 
+P  2 YZ 
+P  2 XX 
+P  2 YY 
+P  2 ZZ 
+P  2 XY 
+P  2 XZ 
+P  2 YZ 
+P  2 XX 
+P  2 YY 
+P  2 ZZ 
+P  2 XY 
+P  2 XZ 
+P  2 YZ 
+P  2 XXX
+P  2 YYY
+P  2 ZZZ
+P  2 XXY
+P  2 XXZ
+P  2 YYX
+P  2 YYZ
+P  2 ZZX
+P  2 ZZY
+P  2 XYZ
+P  2 XXX
+P  2 YYY
+P  2 ZZZ
+P  2 XXY
+P  2 XXZ
+P  2 YYX
+P  2 YYZ
+P  2 ZZX
+P  2 ZZY
+P  2 XYZ
+P  2XXXX
+P  2YYYY
+P  2ZZZZ
+P  2XXXY
+P  2XXXZ
+P  2YYYX
+P  2YYYZ
+P  2ZZZX
+P  2ZZZY
+P  2XXYY
+P  2XXZZ
+P  2YYZZ
+P  2XXYZ
+P  2YYXZ
+P  2ZZXY
+P  3  S 
+P  3  S 
+P  3  S 
+P  3  S 
+P  3  S 
+P  3  S 
+P  3  S 
+P  3  S 
+P  3  S 
+P  3  X 
+P  3  Y 
+P  3  Z 
+P  3  X 
+P  3  Y 
+P  3  Z 
+P  3  X 
+P  3  Y 
+P  3  Z 
+P  3  X 
+P  3  Y 
+P  3  Z 
+P  3  X 
+P  3  Y 
+P  3  Z 
+P  3  X 
+P  3  Y 
+P  3  Z 
+P  3 XX 
+P  3 YY 
+P  3 ZZ 
+P  3 XY 
+P  3 XZ 
+P  3 YZ 
+P  3 XX 
+P  3 YY 
+P  3 ZZ 
+P  3 XY 
+P  3 XZ 
+P  3 YZ 
+P  3 XX 
+P  3 YY 
+P  3 ZZ 
+P  3 XY 
+P  3 XZ 
+P  3 YZ 
+P  3 XX 
+P  3 YY 
+P  3 ZZ 
+P  3 XY 
+P  3 XZ 
+P  3 YZ 
+P  3 XXX
+P  3 YYY
+P  3 ZZZ
+P  3 XXY
+P  3 XXZ
+P  3 YYX
+P  3 YYZ
+P  3 ZZX
+P  3 ZZY
+P  3 XYZ
+P  3 XXX
+P  3 YYY
+P  3 ZZZ
+P  3 XXY
+P  3 XXZ
+P  3 YYX
+P  3 YYZ
+P  3 ZZX
+P  3 ZZY
+P  3 XYZ
+P  3XXXX
+P  3YYYY
+P  3ZZZZ
+P  3XXXY
+P  3XXXZ
+P  3YYYX
+P  3YYYZ
+P  3ZZZX
+P  3ZZZY
+P  3XXYY
+P  3XXZZ
+P  3YYZZ
+P  3XXYZ
+P  3YYXZ
+P  3ZZXY
+P  4  S 
+P  4  S 
+P  4  S 
+P  4  S 
+P  4  S 
+P  4  S 
+P  4  S 
+P  4  S 
+P  4  S 
+P  4  X 
+P  4  Y 
+P  4  Z 
+P  4  X 
+P  4  Y 
+P  4  Z 
+P  4  X 
+P  4  Y 
+P  4  Z 
+P  4  X 
+P  4  Y 
+P  4  Z 
+P  4  X 
+P  4  Y 
+P  4  Z 
+P  4  X 
+P  4  Y 
+P  4  Z 
+P  4 XX 
+P  4 YY 
+P  4 ZZ 
+P  4 XY 
+P  4 XZ 
+P  4 YZ 
+P  4 XX 
+P  4 YY 
+P  4 ZZ 
+P  4 XY 
+P  4 XZ 
+P  4 YZ 
+P  4 XX 
+P  4 YY 
+P  4 ZZ 
+P  4 XY 
+P  4 XZ 
+P  4 YZ 
+P  4 XX 
+P  4 YY 
+P  4 ZZ 
+P  4 XY 
+P  4 XZ 
+P  4 YZ 
+P  4 XXX
+P  4 YYY
+P  4 ZZZ
+P  4 XXY
+P  4 XXZ
+P  4 YYX
+P  4 YYZ
+P  4 ZZX
+P  4 ZZY
+P  4 XYZ
+P  4 XXX
+P  4 YYY
+P  4 ZZZ
+P  4 XXY
+P  4 XXZ
+P  4 YYX
+P  4 YYZ
+P  4 ZZX
+P  4 ZZY
+P  4 XYZ
+P  4XXXX
+P  4YYYY
+P  4ZZZZ
+P  4XXXY
+P  4XXXZ
+P  4YYYX
+P  4YYYZ
+P  4ZZZX
+P  4ZZZY
+P  4XXYY
+P  4XXZZ
+P  4YYZZ
+P  4XXYZ
+P  4YYXZ
+P  4ZZXY
+    1    9    6    4    2    1    0    0    0
+    2    9    6    4    2    1    0    0    0
+    3    9    6    4    2    1    0    0    0
+    4    9    6    4    2    1    0    0    0
