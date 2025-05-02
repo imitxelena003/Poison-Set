@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 1056473 on node na02 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'SIE4x4_15_h2o2+_1.75.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_15_h2o2+_1.75.1514978/./SIE4x4_15_h2o2+_1.75.gcf' are the same file
+cp: 'SIE4x4_15_h2o2+_1.75.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_15_h2o2+_1.75.1514978/./SIE4x4_15_h2o2+_1.75.gcfe' are the same file
+cp: 'SIE4x4_15_h2o2+_1.75.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_15_h2o2+_1.75.1514978/./SIE4x4_15_h2o2+_1.75.wfn' are the same file
+cp: cannot stat 'SIE4x4_15_h2o2+_1.75.cgo': No such file or directory
+cp: 'SIE4x4_15_h2o2+_1.75.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_15_h2o2+_1.75.1514978/./SIE4x4_15_h2o2+_1.75.fchk' are the same file
+cp: 'SIE4x4_15_h2o2+_1.75.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_15_h2o2+_1.75.1514978/./SIE4x4_15_h2o2+_1.75.mld' are the same file
+cp: cannot stat 'SIE4x4_15_h2o2+_1.75.1dm': No such file or directory
+mv: 'SIE4x4_15_h2o2+_1.75-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_15_h2o2+_1.75.1514978/./SIE4x4_15_h2o2+_1.75-out.zip' are the same file
+slurmstepd: error: Detected 1 oom_kill event in StepId=105342.batch. Some of the step tasks have been OOM Killed.

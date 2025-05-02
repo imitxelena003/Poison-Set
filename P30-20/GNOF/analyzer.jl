@@ -24,57 +24,80 @@ function get_nof_fromfile(file)
 
     try
         Emol = 0
+        ncwo = 0
         open(file, "r") do fmol
             for linemol in readlines(fmol)
                 if occursin("Final NOF", linemol)
                     Emol = parse(Float64, split(linemol)[6])
                 end
+                if occursin("No. of Weakly occ. per St. Doubly occ.  MOs", linemol)
+                    ncwo = parse(Int, split(linemol)[11])
+                end
             end
         end
-        return Emol
+        return Emol, ncwo
     catch
-        return 0
+        return 0, 0
     end
 end
 
-function get_nof_E(nof, filename)
+function get_nof_E(nof, filename, subset_name, system_name)
     # Try to get the NOF energy.
-    # First, it looks the exact filename in P30-5, P30-10, and P30-20.
+    # First, it looks the filename in P30-5, P30-10, and P30-20.
     # If it does not find, it looks the molecule in the other reactions within the same set.
 
     # Root directory. First part is empty. Last two parts are set and nof
-    fileparts = split(pwd(), "/")[2:end-2]
+    fileparts = split(pwd(), "/")[2:(end-2)]
     rootdir = join(fileparts, "/")
+
+    # Check if an atom (does not start with capital letter).
+    # If an atom, append the subset and system name, and try to look 
+    # for the specific atom for that reaction
+    molparts = split(filename[1:(end-4)], "_")
+    if !('A' <= molparts[1][1] <= 'Z')
+        for setname in ["P30-5", "P30-10", "P30-20"]
+            dir = build_path(
+                rootdir,
+                setname,
+                nof,
+                subset_name * "_" * system_name * "_" * filename[1:(end-4)],
+            ) # end-4 to remove xyz
+            Emol, ncwo = get_nof_fromfile(dir)
+            if Emol < 0
+                return Emol, ncwo
+            end
+        end
+    end
 
     # Look exact filename in all sets
     for setname in ["P30-5", "P30-10", "P30-20"]
-        dir = build_path(rootdir, setname, nof, filename[1:end-4]) # end-4 to remove xyz
-        Emol = get_nof_fromfile(dir)
+        dir = build_path(rootdir, setname, nof, filename[1:(end-4)]) # end-4 to remove xyz
+        Emol, ncwo = get_nof_fromfile(dir)
         if Emol < 0
-            return Emol
+            return Emol, ncwo
         end
     end
 
     # look the molecule in all reactions within the same set
     # only molecules start with capital letter
-    molparts = split(filename[1:end-4], "_")
+    molparts = split(filename[1:(end-4)], "_")
     if 'A' <= molparts[1][1] <= 'Z'
         for setname in ["P30-5", "P30-10", "P30-20"]
-            for i in 1:200
+            for i = 1:200
                 molparts[2] = string(i)
                 mol = join(molparts, "_")
                 dir = build_path(rootdir, setname, nof, mol)
-                Emol = get_nof_fromfile(dir)
+                Emol, ncwo = get_nof_fromfile(dir)
                 if Emol < 0
                     #println(filename[1:end-4], " not found, using ", mol, " in ", setname)
-                    return Emol
+                    return Emol, ncwo
                 end
             end
         end
     end
 
     println("Energy not found:", filename)
-    return 0
+    return 0, 0
 end
 
 # Print Sets and its descriptions
@@ -115,10 +138,10 @@ for (reaction_name, reaction) in data
             system["dE_Ref"] = dE
         else
             count, filename = info
-            molecule_name = filename[1:end-4]
-            E_NOF = get_nof_E(nof, filename)
+            molecule_name = filename[1:(end-4)]
+            E_NOF, ncwo = get_nof_E(nof, filename, set_name, system_name)
             dE_NOF += count * E_NOF
-            mol_data[molecule_name] = Dict("E_NOF" => E_NOF, "Count" => count)
+            mol_data[molecule_name] = Dict("E_NOF" => E_NOF, "Count" => count, "Ncwo" => ncwo)
         end
     end
     system["dE_NOF"] = dE_NOF
@@ -171,19 +194,19 @@ end
 using Plots
 
 function plot_bar(data, ylabel, ylims)
-    cg = cgrad(:RdYlGn, rev=true)
+    cg = cgrad(:RdYlGn, rev = true)
     colors = get.(Ref(cg), (values(data) .- minimum(values(data))) ./ maximum(values(data)))
     set_names = collect(keys(data))
     p = bar(
         set_names,
         collect(values(data)),
-        title=nof,
-        ylabel=ylabel,
-        ylims=ylims,
-        xrotation=90,
-        xticks=(0.5:1:size(set_names)[1], set_names),
-        color=colors,
-        legend=false,
+        title = nof,
+        ylabel = ylabel,
+        ylims = ylims,
+        xrotation = 90,
+        xticks = (0.5:1:size(set_names)[1], set_names),
+        color = colors,
+        legend = false,
     )
     display(p)
 end

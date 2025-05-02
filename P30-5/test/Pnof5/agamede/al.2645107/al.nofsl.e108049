@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'al.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/al.2645107/./al.gcf' are the same file
+cp: 'al.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/al.2645107/./al.gcfe' are the same file
+cp: 'al.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/al.2645107/./al.wfn' are the same file
+cp: cannot stat 'al.cgo': No such file or directory
+cp: 'al.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/al.2645107/./al.fchk' are the same file
+cp: 'al.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/al.2645107/./al.mld' are the same file
+cp: cannot stat 'al.1dm': No such file or directory
+mv: 'al-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/al.2645107/./al-out.zip' are the same file

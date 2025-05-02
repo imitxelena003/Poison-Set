@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'BH76_1_n2.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/BH76_1_n2.1500135/./BH76_1_n2.gcf' are the same file
+cp: 'BH76_1_n2.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/BH76_1_n2.1500135/./BH76_1_n2.gcfe' are the same file
+cp: 'BH76_1_n2.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/BH76_1_n2.1500135/./BH76_1_n2.wfn' are the same file
+cp: cannot stat 'BH76_1_n2.cgo': No such file or directory
+cp: 'BH76_1_n2.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/BH76_1_n2.1500135/./BH76_1_n2.fchk' are the same file
+cp: 'BH76_1_n2.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/BH76_1_n2.1500135/./BH76_1_n2.mld' are the same file
+cp: cannot stat 'BH76_1_n2.1dm': No such file or directory
+mv: 'BH76_1_n2-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/BH76_1_n2.1500135/./BH76_1_n2-out.zip' are the same file

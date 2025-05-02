@@ -1,0 +1,12 @@
+Job runing on
+ cp /gscratch/povmieci/TMP/ALKBDE10_2_cao.3918552/ALKBDE10_2_cao.gcf  /gscratch/povmieci/SCRATCH/125539/.
+Running Parallel DoNOF
+ALKBDE10_2_cao.gcf
+ALKBDE10_2_cao.inp
+ALKBDE10_2_cao.nofsl
+ALKBDE10_2_cao.nofsl.e125539
+ALKBDE10_2_cao.nofsl.o125539
+def2-qzvp.bas
+  adding: ALKBDE10_2_cao.out (deflated 71%)
+MLD
+XYZ

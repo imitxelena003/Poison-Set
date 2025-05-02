@@ -1,0 +1,12 @@
+Job runing on
+ cp /gscratch/povmieci/TMP/G2RC_20_68.3439202/G2RC_20_68.gcf  /gscratch/povmieci/SCRATCH/124766/.
+Running Parallel DoNOF
+def2-qzvp.bas
+G2RC_20_68.gcf
+G2RC_20_68.inp
+G2RC_20_68.nofsl
+G2RC_20_68.nofsl.e124766
+G2RC_20_68.nofsl.o124766
+  adding: G2RC_20_68.out (deflated 74%)
+MLD
+XYZ

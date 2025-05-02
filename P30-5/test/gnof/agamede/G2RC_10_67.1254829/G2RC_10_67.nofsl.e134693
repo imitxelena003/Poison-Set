@@ -1,0 +1,9 @@
+STOP IN ABRT
+slurmstepd: error:  mpi/pmix_v4: _errhandler: na05 [0]: pmixp_client_v2.c:212: Error handler invoked: status = -61, source = [slurm.pmix.134693.0:0]
+slurmstepd: error: *** STEP 134693.0 ON na05 CANCELLED AT 2025-04-15T12:31:03 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: na06: tasks 12-23: Killed
+srun: Terminating StepId=134693.0
+srun: error: na05: tasks 1-11: Killed
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory

@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'W4-11_113_n2o.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_113_n2o.1306336/./W4-11_113_n2o.gcf' are the same file
+cp: 'W4-11_113_n2o.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_113_n2o.1306336/./W4-11_113_n2o.gcfe' are the same file
+cp: 'W4-11_113_n2o.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_113_n2o.1306336/./W4-11_113_n2o.wfn' are the same file
+cp: cannot stat 'W4-11_113_n2o.cgo': No such file or directory
+cp: 'W4-11_113_n2o.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_113_n2o.1306336/./W4-11_113_n2o.fchk' are the same file
+cp: 'W4-11_113_n2o.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_113_n2o.1306336/./W4-11_113_n2o.mld' are the same file
+cp: cannot stat 'W4-11_113_n2o.1dm': No such file or directory
+mv: 'W4-11_113_n2o-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_113_n2o.1306336/./W4-11_113_n2o-out.zip' are the same file

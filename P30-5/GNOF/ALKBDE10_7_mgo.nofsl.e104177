@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'ALKBDE10_7_mgo.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/ALKBDE10_7_mgo.1309887/./ALKBDE10_7_mgo.gcf' are the same file
+cp: 'ALKBDE10_7_mgo.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/ALKBDE10_7_mgo.1309887/./ALKBDE10_7_mgo.gcfe' are the same file
+cp: 'ALKBDE10_7_mgo.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/ALKBDE10_7_mgo.1309887/./ALKBDE10_7_mgo.wfn' are the same file
+cp: cannot stat 'ALKBDE10_7_mgo.cgo': No such file or directory
+cp: 'ALKBDE10_7_mgo.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/ALKBDE10_7_mgo.1309887/./ALKBDE10_7_mgo.fchk' are the same file
+cp: 'ALKBDE10_7_mgo.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/ALKBDE10_7_mgo.1309887/./ALKBDE10_7_mgo.mld' are the same file
+cp: cannot stat 'ALKBDE10_7_mgo.1dm': No such file or directory
+mv: 'ALKBDE10_7_mgo-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/ALKBDE10_7_mgo.1309887/./ALKBDE10_7_mgo-out.zip' are the same file

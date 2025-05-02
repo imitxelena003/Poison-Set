@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 3774394 on node na11 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'G2RC_10_62.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_10_62.1608546/./G2RC_10_62.gcf' are the same file
+cp: 'G2RC_10_62.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_10_62.1608546/./G2RC_10_62.gcfe' are the same file
+cp: 'G2RC_10_62.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_10_62.1608546/./G2RC_10_62.wfn' are the same file
+cp: cannot stat 'G2RC_10_62.cgo': No such file or directory
+cp: 'G2RC_10_62.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_10_62.1608546/./G2RC_10_62.fchk' are the same file
+cp: 'G2RC_10_62.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_10_62.1608546/./G2RC_10_62.mld' are the same file
+cp: cannot stat 'G2RC_10_62.1dm': No such file or directory
+mv: 'G2RC_10_62-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_10_62.1608546/./G2RC_10_62-out.zip' are the same file
+slurmstepd: error: Detected 1 oom_kill event in StepId=105543.batch. Some of the step tasks have been OOM Killed.

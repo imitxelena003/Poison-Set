@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'W4-11_120_t-hooo.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_120_t-hooo.972685/./W4-11_120_t-hooo.gcf' are the same file
+cp: 'W4-11_120_t-hooo.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_120_t-hooo.972685/./W4-11_120_t-hooo.gcfe' are the same file
+cp: 'W4-11_120_t-hooo.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_120_t-hooo.972685/./W4-11_120_t-hooo.wfn' are the same file
+cp: cannot stat 'W4-11_120_t-hooo.cgo': No such file or directory
+cp: 'W4-11_120_t-hooo.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_120_t-hooo.972685/./W4-11_120_t-hooo.fchk' are the same file
+cp: 'W4-11_120_t-hooo.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_120_t-hooo.972685/./W4-11_120_t-hooo.mld' are the same file
+cp: cannot stat 'W4-11_120_t-hooo.1dm': No such file or directory
+mv: 'W4-11_120_t-hooo-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_120_t-hooo.972685/./W4-11_120_t-hooo-out.zip' are the same file

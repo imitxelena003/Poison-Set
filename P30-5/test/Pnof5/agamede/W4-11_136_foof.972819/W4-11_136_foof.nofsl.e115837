@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'W4-11_136_foof.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_136_foof.972819/./W4-11_136_foof.gcf' are the same file
+cp: 'W4-11_136_foof.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_136_foof.972819/./W4-11_136_foof.gcfe' are the same file
+cp: 'W4-11_136_foof.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_136_foof.972819/./W4-11_136_foof.wfn' are the same file
+cp: cannot stat 'W4-11_136_foof.cgo': No such file or directory
+cp: 'W4-11_136_foof.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_136_foof.972819/./W4-11_136_foof.fchk' are the same file
+cp: 'W4-11_136_foof.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_136_foof.972819/./W4-11_136_foof.mld' are the same file
+cp: cannot stat 'W4-11_136_foof.1dm': No such file or directory
+mv: 'W4-11_136_foof-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/W4-11_136_foof.972819/./W4-11_136_foof-out.zip' are the same file

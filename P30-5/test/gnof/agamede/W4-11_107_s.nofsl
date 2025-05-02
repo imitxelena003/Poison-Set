@@ -1,0 +1,77 @@
+#!/bin/bash
+#SBATCH --partition=p_slow
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2gb
+#SBATCH --time=96:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=12
+#SBATCH --output=%x.o%j
+#SBATCH --error=%x.e%j
+#SBATCH --constraint=amd192
+
+## Do not change below this line
+####SBATCH --mem=11280mb
+
+JOBNAME=W4-11_107_s
+
+HOST=agamede
+echo Job runing on 
+
+export scr=/gscratch/povmieci/SCRATCH/$SLURM_JOBID
+
+mkdir $scr
+
+cd $scr
+cp /gscratch/povmieci/TMP/W4-11_107_s.2969954/W4-11_107_s.inp $scr/.
+cp /gscratch/povmieci/TMP/W4-11_107_s.2969954/*.bas      $scr/.
+if [ -f /gscratch/povmieci/TMP/W4-11_107_s.2969954/W4-11_107_s.gcf ]; then 
+echo " cp /gscratch/povmieci/TMP/W4-11_107_s.2969954/W4-11_107_s.gcf  $scr/."
+cp /gscratch/povmieci/TMP/W4-11_107_s.2969954/W4-11_107_s.gcf  $scr/GCF
+fi
+
+module load foss/2023b
+
+if [ 12 -gt "1" ]; then
+	echo "Running Parallel DoNOF"
+	# module load impi
+	# mpirun  /software/users/povpisim/DoNOFmpig.x < W4-11_107_s.inp > W4-11_107_s.out
+	srun  /software/users/povpisim/DoNOFmpig.x < W4-11_107_s.inp > W4-11_107_s.out
+else
+	echo "Running Serial DoNOF"
+	# module load intel
+	/software/users/povpisim/DoNOF.x < W4-11_107_s.inp > W4-11_107_s.out
+fi
+
+out="/gscratch/povmieci/TMP/W4-11_107_s.2969954"
+
+ls $out
+
+ zip W4-11_107_s-out.zip W4-11_107_s.out
+
+ mv -f W4-11_107_s.inp     $out/.
+ mv -f W4-11_107_s-out.zip $out/.
+ mv -f *.bas          $out/.
+ mv -f GCF            $out/W4-11_107_s.gcf
+ mv -f GCFe           $out/W4-11_107_s.gcfe
+ mv -f WFN            $out/W4-11_107_s.wfn
+ mv -f CGGRAD         $out/W4-11_107_s.cgo
+ mv -f FCHK           $out/W4-11_107_s.fchk
+ mv -f 1DM            $out/W4-11_107_s.1dm
+ cat MLD XYZ >        $out/W4-11_107_s.mld
+
+ rm -f BFST CGM W4-11_107_s.out
+
+ ls 
+
+ cd $out
+ 
+###  cp -f W4-11_107_s.gcf  $SLURM_SUBMIT_DIR/.
+###  cp -f W4-11_107_s.gcfe $SLURM_SUBMIT_DIR/.
+###  cp -f W4-11_107_s.wfn  $SLURM_SUBMIT_DIR/.
+###  cp -f W4-11_107_s.cgo  $SLURM_SUBMIT_DIR/.
+###  cp -f W4-11_107_s.fchk $SLURM_SUBMIT_DIR/.
+###  cp -f W4-11_107_s.1dm  $SLURM_SUBMIT_DIR/.
+###  cp -f W4-11_107_s.mld  $SLURM_SUBMIT_DIR/.
+       
+ rm -rf $scr
+

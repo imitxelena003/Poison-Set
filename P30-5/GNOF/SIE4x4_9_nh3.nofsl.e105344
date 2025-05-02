@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'SIE4x4_9_nh3.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_9_nh3.1515221/./SIE4x4_9_nh3.gcf' are the same file
+cp: 'SIE4x4_9_nh3.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_9_nh3.1515221/./SIE4x4_9_nh3.gcfe' are the same file
+cp: 'SIE4x4_9_nh3.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_9_nh3.1515221/./SIE4x4_9_nh3.wfn' are the same file
+cp: cannot stat 'SIE4x4_9_nh3.cgo': No such file or directory
+cp: 'SIE4x4_9_nh3.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_9_nh3.1515221/./SIE4x4_9_nh3.fchk' are the same file
+cp: 'SIE4x4_9_nh3.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_9_nh3.1515221/./SIE4x4_9_nh3.mld' are the same file
+cp: cannot stat 'SIE4x4_9_nh3.1dm': No such file or directory
+mv: 'SIE4x4_9_nh3-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/SIE4x4_9_nh3.1515221/./SIE4x4_9_nh3-out.zip' are the same file

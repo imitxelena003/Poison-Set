@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'G2RC_20_1.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_20_1.1608702/./G2RC_20_1.gcf' are the same file
+cp: 'G2RC_20_1.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_20_1.1608702/./G2RC_20_1.gcfe' are the same file
+cp: 'G2RC_20_1.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_20_1.1608702/./G2RC_20_1.wfn' are the same file
+cp: cannot stat 'G2RC_20_1.cgo': No such file or directory
+cp: 'G2RC_20_1.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_20_1.1608702/./G2RC_20_1.fchk' are the same file
+cp: 'G2RC_20_1.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_20_1.1608702/./G2RC_20_1.mld' are the same file
+cp: cannot stat 'G2RC_20_1.1dm': No such file or directory
+mv: 'G2RC_20_1-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/G2RC_20_1.1608702/./G2RC_20_1-out.zip' are the same file

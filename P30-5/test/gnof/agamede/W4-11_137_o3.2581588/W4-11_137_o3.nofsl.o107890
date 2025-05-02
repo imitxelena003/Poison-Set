@@ -1,0 +1,15 @@
+Job runing on
+ cp /gscratch/povmieci/TMP/W4-11_137_o3.2581588/W4-11_137_o3.gcf  /gscratch/povmieci/SCRATCH/107890/.
+Running Parallel DoNOF
+def2-qzvp.bas
+W4-11_137_o3.gcf
+W4-11_137_o3.inp
+W4-11_137_o3.nofsl
+W4-11_137_o3.nofsl.e107890
+W4-11_137_o3.nofsl.o107890
+BFST
+CGM
+def2-qzvp.bas
+MLD
+XYZ
+  adding: W4-11_137_o3.out (deflated 73%)

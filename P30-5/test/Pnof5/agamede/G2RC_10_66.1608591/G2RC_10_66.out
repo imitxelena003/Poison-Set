@@ -1,0 +1,388 @@
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+Master:    0
+
+ The execution started at  8h 54min on the  3/ 7/2025
+
+    ===========================================================
+    !                                                         !
+    !                        Do N O F                         !
+    !                                                         !
+    !  (Donostia Natural Orbital Functional Software Program) !
+    !                                                         !
+    !               COPYRIGHT by Mario Piris                  !
+    !                                                         !
+    !      Donostia International Physics Center (DIPC)       !
+    !       University of the Basque Country (UPV/EHU)        !
+    !       Basque Foundation for Science (IKERBASQUE)        !
+    !                                                         !
+    !          GNU General Public License version 3           !
+    !                                                         !
+    !                  VERSION: Mayo 2024                     !
+    !                                                         !
+    ===========================================================
+
+ Run Title
+ ---------
+ p30-5 set                                                                       
+
+ Basis Set
+ ---------
+ /beegfs_agamede/gscratch/povmieci/SCRATCH/105544/def2-qzvp.bas                  
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ SI         14.0        0.0000        0.0000        0.0000
+ F           9.0        1.7200       -1.7200        1.7200
+ F           9.0       -1.7200        1.7200        1.7200
+ F           9.0       -1.7200       -1.7200       -1.7200
+ F           9.0        1.7200        1.7200       -1.7200
+
+ Atomic Basis Set
+ ----------------
+ The contracted primitive functions were unnormalized
+ The contracted basis functions are now normalized to unity
+
+  Shell Type  Primitive         Exponent  Contraction Coefficient
+
+ SI        
+
+      1   S       1        918070.6956500    0.000015164350
+      1   S       2        137485.2538600    0.000117886427
+      1   S       3         31287.7727140    0.000619706293
+      1   S       4          8861.6105697    0.002609744936
+      1   S       5          2890.6943156    0.009422545860
+      1   S       6          1043.4063979    0.029933357272
+      1   S       7           406.8016028    0.083569823387
+      1   S       8           168.4836021    0.197339466916
+      1   S       9            73.1856288    0.362800527037
+      1   S      10            32.9984854    0.431342021378
+
+      2   S      11           278.7875133    0.025131736656
+      2   S      12            85.9102287    0.220626387338
+      2   S      13            32.9926040    0.791695147327
+
+      3   S      14            15.0336933    1.000000000000
+
+      4   S      15             5.7257515    1.000000000000
+
+      5   S      16             2.6146521    1.000000000000
+
+      6   S      17             1.1757833    1.000000000000
+
+      7   S      18             0.3543233    1.000000000000
+
+      8   S      19             0.1624834    1.000000000000
+
+      9   S      20             0.0683325    1.000000000000
+
+     10   P      21          1775.8850516    0.000220716403
+     10   P      22           420.8378685    0.001918226363
+     10   P      23           136.4229024    0.010391248672
+     10   P      24            51.7009917    0.040810497839
+     10   P      25            21.5594560    0.121203363594
+     10   P      26             9.5559200    0.259743211286
+     10   P      27             4.3529819    0.385910217750
+     10   P      28             2.0096964    0.359561845927
+
+     11   P      29            46.4181538    0.043325011785
+     11   P      30             1.9076418   -1.003170042390
+
+     12   P      31             0.9233722    1.000000000000
+
+     13   P      32             0.3451572    1.000000000000
+
+     14   P      33             0.1365683    1.000000000000
+
+     15   P      34             0.0529871    1.000000000000
+
+     16   D      35             2.6450000    1.000000000000
+
+     17   D      36             0.6080000    1.000000000000
+
+     18   D      37             0.2720000    1.000000000000
+
+     19   D      38             0.1130000    1.000000000000
+
+     20   F      39             0.5410000    1.000000000000
+
+     21   F      40             0.2120000    1.000000000000
+
+     22   G      41             0.4610000    1.000000000000
+
+ F         
+
+     23   S      42        132535.9734500    0.000077991655
+     23   S      43         19758.1125880    0.000610110499
+     23   S      44          4485.1996947    0.003201264977
+     23   S      45          1273.8151020    0.013260979519
+     23   S      46           418.9383124    0.046071472261
+     23   S      47           152.5572198    0.136167792948
+     23   S      48            59.8215248    0.326765510155
+     23   S      49            24.8190769    0.573746111915
+
+     24   S      50           100.7444667    0.102589537845
+     24   S      51            30.1037283    0.918646158514
+
+     25   S      52            10.8142833    1.000000000000
+
+     26   S      53             4.8172887    1.000000000000
+
+     27   S      54             1.6559334    1.000000000000
+
+     28   S      55             0.6489352    1.000000000000
+
+     29   S      56             0.2477810    1.000000000000
+
+     30   P      57           240.9665411    0.002580161562
+     30   P      58            57.0206998    0.020680170596
+     30   P      59            18.1269521    0.097152556343
+     30   P      60             6.6457405    0.314685817921
+     30   P      61             2.6375723    0.677445033362
+
+     31   P      62             1.0638217    1.000000000000
+
+     32   P      63             0.4193256    1.000000000000
+
+     33   P      64             0.1574759    1.000000000000
+
+     34   D      65             5.0140000    1.000000000000
+
+     35   D      66             1.7250000    1.000000000000
+
+     36   D      67             0.5860000    1.000000000000
+
+     37   F      68             3.5620000    1.000000000000
+
+     38   F      69             1.1480000    1.000000000000
+
+     39   G      70             2.3760000    1.000000000000
+
+ F         
+
+     40   S      71        132535.9734500    0.000077991655
+     40   S      72         19758.1125880    0.000610110499
+     40   S      73          4485.1996947    0.003201264977
+     40   S      74          1273.8151020    0.013260979519
+     40   S      75           418.9383124    0.046071472261
+     40   S      76           152.5572198    0.136167792948
+     40   S      77            59.8215248    0.326765510155
+     40   S      78            24.8190769    0.573746111915
+
+     41   S      79           100.7444667    0.102589537845
+     41   S      80            30.1037283    0.918646158514
+
+     42   S      81            10.8142833    1.000000000000
+
+     43   S      82             4.8172887    1.000000000000
+
+     44   S      83             1.6559334    1.000000000000
+
+     45   S      84             0.6489352    1.000000000000
+
+     46   S      85             0.2477810    1.000000000000
+
+     47   P      86           240.9665411    0.002580161562
+     47   P      87            57.0206998    0.020680170596
+     47   P      88            18.1269521    0.097152556343
+     47   P      89             6.6457405    0.314685817921
+     47   P      90             2.6375723    0.677445033362
+
+     48   P      91             1.0638217    1.000000000000
+
+     49   P      92             0.4193256    1.000000000000
+
+     50   P      93             0.1574759    1.000000000000
+
+     51   D      94             5.0140000    1.000000000000
+
+     52   D      95             1.7250000    1.000000000000
+
+     53   D      96             0.5860000    1.000000000000
+
+     54   F      97             3.5620000    1.000000000000
+
+     55   F      98             1.1480000    1.000000000000
+
+     56   G      99             2.3760000    1.000000000000
+
+ F         
+
+     57   S     100        132535.9734500    0.000077991655
+     57   S     101         19758.1125880    0.000610110499
+     57   S     102          4485.1996947    0.003201264977
+     57   S     103          1273.8151020    0.013260979519
+     57   S     104           418.9383124    0.046071472261
+     57   S     105           152.5572198    0.136167792948
+     57   S     106            59.8215248    0.326765510155
+     57   S     107            24.8190769    0.573746111915
+
+     58   S     108           100.7444667    0.102589537845
+     58   S     109            30.1037283    0.918646158514
+
+     59   S     110            10.8142833    1.000000000000
+
+     60   S     111             4.8172887    1.000000000000
+
+     61   S     112             1.6559334    1.000000000000
+
+     62   S     113             0.6489352    1.000000000000
+
+     63   S     114             0.2477810    1.000000000000
+
+     64   P     115           240.9665411    0.002580161562
+     64   P     116            57.0206998    0.020680170596
+     64   P     117            18.1269521    0.097152556343
+     64   P     118             6.6457405    0.314685817921
+     64   P     119             2.6375723    0.677445033362
+
+     65   P     120             1.0638217    1.000000000000
+
+     66   P     121             0.4193256    1.000000000000
+
+     67   P     122             0.1574759    1.000000000000
+
+     68   D     123             5.0140000    1.000000000000
+
+     69   D     124             1.7250000    1.000000000000
+
+     70   D     125             0.5860000    1.000000000000
+
+     71   F     126             3.5620000    1.000000000000
+
+     72   F     127             1.1480000    1.000000000000
+
+     73   G     128             2.3760000    1.000000000000
+
+ F         
+
+     74   S     129        132535.9734500    0.000077991655
+     74   S     130         19758.1125880    0.000610110499
+     74   S     131          4485.1996947    0.003201264977
+     74   S     132          1273.8151020    0.013260979519
+     74   S     133           418.9383124    0.046071472261
+     74   S     134           152.5572198    0.136167792948
+     74   S     135            59.8215248    0.326765510155
+     74   S     136            24.8190769    0.573746111915
+
+     75   S     137           100.7444667    0.102589537845
+     75   S     138            30.1037283    0.918646158514
+
+     76   S     139            10.8142833    1.000000000000
+
+     77   S     140             4.8172887    1.000000000000
+
+     78   S     141             1.6559334    1.000000000000
+
+     79   S     142             0.6489352    1.000000000000
+
+     80   S     143             0.2477810    1.000000000000
+
+     81   P     144           240.9665411    0.002580161562
+     81   P     145            57.0206998    0.020680170596
+     81   P     146            18.1269521    0.097152556343
+     81   P     147             6.6457405    0.314685817921
+     81   P     148             2.6375723    0.677445033362
+
+     82   P     149             1.0638217    1.000000000000
+
+     83   P     150             0.4193256    1.000000000000
+
+     84   P     151             0.1574759    1.000000000000
+
+     85   D     152             5.0140000    1.000000000000
+
+     86   D     153             1.7250000    1.000000000000
+
+     87   D     154             0.5860000    1.000000000000
+
+     88   F     155             3.5620000    1.000000000000
+
+     89   F     156             1.1480000    1.000000000000
+
+     90   G     157             2.3760000    1.000000000000
+
+ Total Number of Basis Set Shells             =   90
+ Total Number of Primitives                   =  157
+ Number of Cartesian Gaussian Basis Functions =  374
+ Number of Electrons                          =   50
+ Charge of Molecule                           =    0
+ Spin Multiplicity                            =    1
+ Number of Occupied Orbitals (Alpha)          =   25
+ Number of Occupied Orbitals (Beta )          =   25
+ Total Number of Atoms                        =    5
+
+ Input Run Options
+ -----------------
+ IRUNTYP = 1  MULT = 1  ICHARG =  0 IECP = 0  IEMOM = 1  UNITS = ANGS    
+
+ Integral Options
+ ----------------
+ CUTOFF = 1.0E-09   ISCHWZ = 0   ERITYP = FULL
+
+ Input NOF Options
+ -----------------
+
+ Type of calculation =    Coeff. Opt.:   (ICOEF)         1
+ Use Softmax function for Occ. Opt.:     (ISOFTMAX)      1
+ Type of Orb. Opt. = Orbital Rotations:  (IORBOPT)       4
+ Maximum Number of Occ-Coef Outer Iter.: (MAXIT)      1000
+
+ Natural Orbital Functional Selected:    (IPNOF)         5
+
+ Restart calculation Option:             (RESTART)       F
+ Restart Gamma Matrix from GCF file:     (INPUTGAMMA)    0
+ Coefficient Matrix from GCF file:       (INPUTC)        0
+ Diagonal Elements FMIUG from GCF file:  (INPUTFMIUG)    0
+ Cartesian Coordinates from GCF file:    (INPUTCXYZ)     0
+
+ Hartree-Fock Calc. using ID Method:     (HFID)          T
+ Threshold Energy Convergence=10**(-N):  (NTHRESHEID)    8
+ Max. Number of External Iterations:     (MAXITID)      30
+ Ion. Potentials by Koopmans Theorem:    (KOOPMANS)      0
+ Orthogonalize the initial Orbitals:     (ORTHO)         T
+
+ Output Option:                          (NPRINT)        0
+ Output the Coefficient Matrix:          (IWRITEC)       0
+ Do a Mulliken Population Analysis:      (IMULPOP)       0
+ Write Information into a WFN file:      (IAIMPAC)       1
+ Write Information into a FCHK file:     (IFCHK)         1
+ Write Information into a MLP file:      (MOLDEN)        1
+ Create Ini. Cond. (ini.xyz) file:       (INICOND)       1
+ Calculate IPs using Ext. Koopmans Theo: (IEKT)          0
+ Write APSG expansion coefficient file:  (APSG)          F
+ Output option for Lagrange Multipliers: (PRINTLAG)      F
+ Diagonalize matrix of Lag. Multipliers: (DIAGLAG)       F
+
+------------------------------------------------------------------------
+
+ Orbital Space
+ -------------
+
+ Inactive Doubly occupied orbitals up to NO1  =    0
+ No. considered Strongly Doubly occupied MOs  =   25
+ No. considered Strongly Singly occupied MOs  =    0
+ No. of Weakly occ. per St. Doubly occ.  MOs  =   13
+ Dimension of the Active Nat. Orb. subspace   =  350
+ Secondary Empty orbitals                     =   24
+
+ 1e- integrals
+ -------------
+ Time to do integrals =      0.01
+ Guess for MOs = HCORE
+    115721 MOs were matched and     12650 equalized to zero
+
+ Orthonormality violations:    1589, Maximum Violation:  0.000074
+ Orthogonalize the orbitals
+
+ No violations of the orthonormality
+
+ 2e- integrals
+ -------------
+ DONTW option skips storage 2e- integrals on Unit 1

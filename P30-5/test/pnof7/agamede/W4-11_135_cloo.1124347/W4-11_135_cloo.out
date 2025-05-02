@@ -1,0 +1,1336 @@
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+Master:    0
+
+ The execution started at 18h 20min on the  4/14/2025
+
+    ===========================================================
+    !                                                         !
+    !                        Do N O F                         !
+    !                                                         !
+    !  (Donostia Natural Orbital Functional Software Program) !
+    !                                                         !
+    !               COPYRIGHT by Mario Piris                  !
+    !                                                         !
+    !      Donostia International Physics Center (DIPC)       !
+    !       University of the Basque Country (UPV/EHU)        !
+    !       Basque Foundation for Science (IKERBASQUE)        !
+    !                                                         !
+    !          GNU General Public License version 3           !
+    !                                                         !
+    !                  VERSION: November 2024                 !
+    !                                                         !
+    ===========================================================
+
+ Run Title
+ ---------
+ p30-5 set                                                                       
+
+ Basis Set
+ ---------
+ /gscratch/povmieci/SCRATCH/134630/def2-qzvp.bas                                 
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ CL         17.0       -1.0601       -1.8796        0.0000
+ O           8.0        0.0000        1.8117        0.0000
+ O           8.0        2.2527        2.1824        0.0000
+
+ Atomic Basis Set
+ ----------------
+ The contracted primitive functions were unnormalized
+ The contracted basis functions are now normalized to unity
+
+  Shell Type  Primitive         Exponent  Contraction Coefficient
+
+ CL        
+
+      1   S       1       1467459.0095000    0.000014169136
+      1   S       2        219756.1643300    0.000110153736
+      1   S       3         50010.7703010    0.000579085777
+      1   S       4         14164.8239180    0.002439540929
+      1   S       5          4620.7465525    0.008816310501
+      1   S       6          1667.8991635    0.028087317597
+      1   S       7           650.2919926    0.078954046111
+      1   S       8           269.3803738    0.189251605011
+      1   S       9           117.0675211    0.357824412790
+      1   S      10            52.8117668    0.448692471574
+
+      2   S      11           461.4276999    0.022704789950
+      2   S      12           142.1266535    0.207769475034
+      2   S      13            54.4378388    0.805043697576
+
+      3   S      14            24.1607702    1.000000000000
+
+      4   S      15             9.7083540    1.000000000000
+
+      5   S      16             4.5640697    1.000000000000
+
+      6   S      17             2.1194745    1.000000000000
+
+      7   S      18             0.7572237    1.000000000000
+
+      8   S      19             0.3374722    1.000000000000
+
+      9   S      20             0.1386078    1.000000000000
+
+     10   P      21          2501.9457890    0.000252084118
+     10   P      22           592.8805928    0.002191975914
+     10   P      23           192.1808919    0.011888157055
+     10   P      24            72.8757105    0.046747712596
+     10   P      25            30.4363584    0.137232458887
+     10   P      26            13.4901789    0.285889489259
+     10   P      27             6.1478071    0.398749388220
+     10   P      28             2.8450945    0.300221633944
+
+     11   P      29           105.3939794   -0.053935023265
+     11   P      30             6.7369739    1.006978873524
+
+     12   P      31             1.2421096    1.000000000000
+
+     13   P      32             0.5566971    1.000000000000
+
+     14   P      33             0.2338780    1.000000000000
+
+     15   P      34             0.0931645    1.000000000000
+
+     16   D      35             5.1910000    1.000000000000
+
+     17   D      36             1.2760000    1.000000000000
+
+     18   D      37             0.5830000    1.000000000000
+
+     19   D      38             0.2430000    1.000000000000
+
+     20   F      39             1.0890000    1.000000000000
+
+     21   F      40             0.4230000    1.000000000000
+
+     22   G      41             0.8270000    1.000000000000
+
+ O         
+
+     23   S      42        116506.4690800    0.000071987576
+     23   S      43         17504.3497240    0.000557148772
+     23   S      44          3993.4513230    0.002913003168
+     23   S      45          1133.0063186    0.012172051077
+     23   S      46           369.9956959    0.043003761827
+     23   S      47           133.6207435    0.129647623897
+     23   S      48            52.0356436    0.319696085629
+     23   S      49            21.4619393    0.589314587967
+
+     24   S      50            89.8350513    0.094848052763
+     24   S      51            26.4280108    0.925363787917
+
+     25   S      52             9.2822825    1.000000000000
+
+     26   S      53             4.0947729    1.000000000000
+
+     27   S      54             1.3255349    1.000000000000
+
+     28   S      55             0.5187723    1.000000000000
+
+     29   S      56             0.1977268    1.000000000000
+
+     30   P      57           191.1525581    0.002535957414
+     30   P      58            45.2333567    0.020233824294
+     30   P      59            14.3534659    0.094518019998
+     30   P      60             5.2422372    0.309154328074
+     30   P      61             2.0792419    0.684689495338
+
+     31   P      62             0.8428237    1.000000000000
+
+     32   P      63             0.3361769    1.000000000000
+
+     33   P      64             0.1286400    1.000000000000
+
+     34   D      65             3.7750000    1.000000000000
+
+     35   D      66             1.3000000    1.000000000000
+
+     36   D      67             0.4440000    1.000000000000
+
+     37   F      68             2.6660000    1.000000000000
+
+     38   F      69             0.8590000    1.000000000000
+
+     39   G      70             1.8460000    1.000000000000
+
+ O         
+
+     40   S      71        116506.4690800    0.000071987576
+     40   S      72         17504.3497240    0.000557148772
+     40   S      73          3993.4513230    0.002913003168
+     40   S      74          1133.0063186    0.012172051077
+     40   S      75           369.9956959    0.043003761827
+     40   S      76           133.6207435    0.129647623897
+     40   S      77            52.0356436    0.319696085629
+     40   S      78            21.4619393    0.589314587967
+
+     41   S      79            89.8350513    0.094848052763
+     41   S      80            26.4280108    0.925363787917
+
+     42   S      81             9.2822825    1.000000000000
+
+     43   S      82             4.0947729    1.000000000000
+
+     44   S      83             1.3255349    1.000000000000
+
+     45   S      84             0.5187723    1.000000000000
+
+     46   S      85             0.1977268    1.000000000000
+
+     47   P      86           191.1525581    0.002535957414
+     47   P      87            45.2333567    0.020233824294
+     47   P      88            14.3534659    0.094518019998
+     47   P      89             5.2422372    0.309154328074
+     47   P      90             2.0792419    0.684689495338
+
+     48   P      91             0.8428237    1.000000000000
+
+     49   P      92             0.3361769    1.000000000000
+
+     50   P      93             0.1286400    1.000000000000
+
+     51   D      94             3.7750000    1.000000000000
+
+     52   D      95             1.3000000    1.000000000000
+
+     53   D      96             0.4440000    1.000000000000
+
+     54   F      97             2.6660000    1.000000000000
+
+     55   F      98             0.8590000    1.000000000000
+
+     56   G      99             1.8460000    1.000000000000
+
+ Total Number of Basis Set Shells             =   56
+ Total Number of Primitives                   =   99
+ Number of Cartesian Gaussian Basis Functions =  230
+ Number of Electrons                          =   33
+ Charge of Molecule                           =    0
+ Spin Multiplicity                            =    2
+ Number of Occupied Orbitals (Alpha)          =   17
+ Number of Occupied Orbitals (Beta )          =   16
+ Total Number of Atoms                        =    3
+
+ Input Run Options
+ -----------------
+ IRUNTYP = 1  MULT = 2  ICHARG =  0 IECP = 0  IEMOM = 1  UNITS = ANGS    
+
+ Integral Options
+ ----------------
+ CUTOFF = 1.0E-09   ISCHWZ = 0   ERITYP = FULL
+
+ Input NOF Options
+ -----------------
+
+ Type of calculation =    Coeff. Opt.:   (ICOEF)         1
+ Trigonometric functions for Occ. Opt.:  (ISOFTMAX)      0
+ Type of Orb. Opt. = Orbital Rotations:  (IORBOPT)       4
+ Maximum Number of Occ-Coef Outer Iter.: (MAXIT)      1000
+
+ Natural Orbital Functional Selected:    (IPNOF)         7
+ Spin-Multiplet, High-Spin State Option: (HighSpin)      F
+
+ Restart calculation Option:             (RESTART)       T
+ Orthogonalize the initial Orbitals:     (ORTHO)         T
+
+ Output Option:                          (NPRINT)        0
+ Output the Coefficient Matrix:          (IWRITEC)       0
+ Do a Mulliken Population Analysis:      (IMULPOP)       0
+ Write Information into a WFN file:      (IAIMPAC)       1
+ Write Information into a FCHK file:     (IFCHK)         1
+ Write Information into a MLP file:      (MOLDEN)        1
+ Create Ini. Cond. (ini.xyz) file:       (INICOND)       1
+ Calculate IPs using Ext. Koopmans Theo: (IEKT)          0
+ Write APSG expansion coefficient file:  (APSG)          F
+ Output option for Lagrange Multipliers: (PRINTLAG)      F
+ Diagonalize matrix of Lag. Multipliers: (DIAGLAG)       F
+
+ Nuclear Coordinates from GCF file:
+ ----------------------------------
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ CL      17.00000       -1.0601       -1.8796        0.0000
+ O        8.00000        0.0000        1.8117        0.0000
+ O        8.00000        2.2527        2.1824        0.0000
+
+------------------------------------------------------------------------
+
+ Orbital Space
+ -------------
+
+ Your NCWO =   16 exceeds the maximum possible value
+
+ Inactive Doubly occupied orbitals up to NO1  =    0
+ No. considered Strongly Doubly occupied MOs  =   16
+ No. considered Strongly Singly occupied MOs  =    1
+ No. of Weakly occ. per St. Doubly occ.  MOs  =   13
+ Dimension of the Active Nat. Orb. subspace   =  224
+ Secondary Empty orbitals                     =    5
+
+ 1e- integrals
+ -------------
+ Time to do integrals =      0.00
+
+ 2e- integrals
+ -------------
+ DONTW option skips storage 2e- integrals on Unit 1
+           137214645 2e- integrals in     1 records
+ Time to do integrals =      6.18
+
+ Distribution Full ERIs:
+
+ Integrals:                         137214645
+ Max size per slaves:                 5717278
+ Max size in master:                142931923
+
+ Orthonormality violations:   25240, Maximum Violation:  1.000000
+ Orthogonalize the orbitals
+
+ No violations of the orthonormality
+
+
+  RESULTS OF OCCUPATION-COEFFICIENT OPTIMIZATION
+ ================================================
+
+  Ex It  Occ Time  Orb Time  Orb It   Electronic Energy     Total Energy   Energy Convergency    Max Mul-Lag Diff
+
+    1    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+    2    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+    3    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+    4    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+    5    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+    6    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+    7    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+    8    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+    9    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   10    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   11    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   12    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   13    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   14    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   15    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   16    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   17    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   18    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   19    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   20    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   21    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   22    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   23    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   24    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   25    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   26    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   27    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   28    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   29    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   30    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   31    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   32    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   33    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   34    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   35    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   36    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   37    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   38    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   39    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   40    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   41    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   42    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   43    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   44    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   45    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   46    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   47    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   48    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   49    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   50    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   51    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   52    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   53    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   54    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   55    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   56    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   57    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   58    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   59    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   60    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   61    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   62    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   63    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   64    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   65    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   66    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   67    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   68    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   69    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   70    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   71    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   72    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   73    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   74    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   75    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   76    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   77    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   78    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   79    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   80    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   81    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   82    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   83    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   84    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   85    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   86    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   87    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   88    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   89    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+   90    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   91    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   92    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   93    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   94    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   95    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+   96    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   97    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+   98    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+   99    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  100    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  101    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  102    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  103    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  104    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  105    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  106    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  107    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  108    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  109    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  110    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  111    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  112    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  113    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  114    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  115    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  116    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  117    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  118    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  119    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  120    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  121    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  122    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  123    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  124    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  125    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  126    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  127    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  128    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  129    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  130    2.4E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  131    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  132    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  133    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  134    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  135    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  136    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  137    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  138    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  139    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  140    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  141    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  142    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  143    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  144    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  145    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  146    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  147    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  148    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  149    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  150    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  151    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  152    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  153    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  154    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  155    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  156    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  157    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  158    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  159    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  160    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  161    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  162    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  163    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  164    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  165    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  166    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  167    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  168    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  169    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  170    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  171    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  172    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  173    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  174    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  175    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  176    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  177    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  178    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  179    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  180    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  181    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  182    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  183    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  184    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  185    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  186    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  187    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  188    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  189    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  190    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  191    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  192    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  193    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  194    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  195    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  196    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  197    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  198    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  199    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  200    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  201    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  202    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  203    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  204    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  205    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  206    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  207    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  208    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  209    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  210    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  211    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  212    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  213    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  214    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  215    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  216    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  217    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  218    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  219    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  220    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  221    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  222    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  223    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  224    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  225    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  226    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  227    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  228    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  229    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  230    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  231    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  232    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  233    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  234    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  235    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  236    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  237    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  238    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  239    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  240    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  241    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  242    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  243    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  244    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  245    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  246    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  247    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  248    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  249    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  250    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  251    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  252    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  253    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  254    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  255    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  256    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  257    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  258    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  259    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  260    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  261    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  262    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  263    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  264    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  265    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  266    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  267    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  268    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  269    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  270    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  271    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  272    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  273    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  274    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  275    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  276    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  277    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  278    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  279    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  280    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  281    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  282    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  283    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  284    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  285    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  286    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  287    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  288    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  289    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  290    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  291    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  292    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  293    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  294    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  295    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  296    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  297    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  298    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  299    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  300    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  301    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  302    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  303    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  304    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  305    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  306    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  307    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  308    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  309    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  310    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  311    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  312    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  313    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  314    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  315    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  316    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  317    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  318    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  319    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  320    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  321    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  322    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  323    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  324    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  325    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  326    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  327    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  328    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  329    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  330    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  331    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  332    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  333    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  334    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  335    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  336    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  337    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  338    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  339    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  340    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  341    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  342    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  343    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  344    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  345    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  346    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  347    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  348    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  349    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  350    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  351    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  352    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  353    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  354    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  355    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  356    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  357    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  358    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  359    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  360    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  361    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  362    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  363    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  364    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  365    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  366    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  367    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  368    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  369    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  370    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  371    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  372    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  373    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  374    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  375    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  376    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  377    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  378    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  379    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  380    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  381    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  382    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  383    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  384    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  385    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  386    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  387    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  388    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  389    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  390    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  391    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  392    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  393    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  394    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  395    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  396    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  397    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  398    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  399    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  400    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  401    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  402    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  403    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  404    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  405    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  406    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  407    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  408    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  409    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  410    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  411    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  412    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  413    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  414    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  415    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  416    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  417    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  418    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  419    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  420    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  421    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  422    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  423    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  424    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  425    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  426    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  427    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  428    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  429    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  430    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  431    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  432    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  433    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  434    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  435    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  436    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  437    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  438    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  439    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  440    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  441    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  442    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  443    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  444    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  445    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  446    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  447    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  448    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  449    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  450    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  451    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  452    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  453    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  454    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  455    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  456    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  457    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  458    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  459    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  460    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  461    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  462    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  463    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  464    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  465    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  466    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  467    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  468    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  469    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  470    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  471    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  472    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  473    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  474    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  475    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  476    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  477    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  478    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  479    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  480    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  481    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  482    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  483    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  484    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  485    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  486    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  487    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  488    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  489    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  490    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  491    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  492    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  493    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  494    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  495    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  496    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  497    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  498    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  499    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  500    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  501    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  502    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  503    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  504    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  505    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  506    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  507    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  508    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  509    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  510    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  511    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  512    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  513    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  514    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  515    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  516    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  517    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  518    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  519    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  520    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  521    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  522    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  523    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  524    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  525    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  526    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  527    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  528    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  529    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  530    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  531    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  532    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  533    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  534    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  535    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  536    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  537    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  538    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  539    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  540    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  541    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  542    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  543    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  544    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  545    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  546    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  547    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  548    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  549    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  550    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  551    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  552    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  553    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  554    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  555    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  556    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  557    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  558    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  559    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  560    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  561    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  562    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  563    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  564    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  565    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  566    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  567    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  568    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  569    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  570    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  571    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  572    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  573    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  574    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  575    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  576    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  577    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  578    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  579    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  580    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  581    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  582    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  583    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  584    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  585    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  586    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  587    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  588    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  589    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  590    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  591    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  592    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  593    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  594    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  595    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  596    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  597    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  598    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  599    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  600    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  601    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  602    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  603    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  604    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  605    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  606    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  607    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  608    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  609    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  610    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  611    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  612    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  613    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  614    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  615    2.3E+01   5.0E+00       0                NaN                 NaN              NaN           0.000000
+  616    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  617    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  618    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  619    2.3E+01   5.0E+00       0                NaN                 NaN              NaN           0.000000
+  620    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  621    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  622    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  623    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  624    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  625    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  626    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  627    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  628    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  629    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  630    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  631    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  632    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  633    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  634    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  635    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  636    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  637    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  638    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  639    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  640    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  641    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  642    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  643    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  644    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  645    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  646    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  647    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  648    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  649    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  650    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  651    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  652    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  653    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  654    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  655    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  656    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  657    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  658    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  659    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  660    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  661    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  662    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  663    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  664    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  665    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  666    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  667    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  668    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  669    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  670    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  671    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  672    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  673    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  674    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  675    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  676    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  677    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  678    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  679    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  680    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  681    2.3E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  682    2.2E+01   4.9E+00       0                NaN                 NaN              NaN           0.000000
+  683    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  684    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  685    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  686    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  687    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  688    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  689    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  690    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  691    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  692    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  693    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  694    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  695    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  696    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  697    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  698    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  699    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  700    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  701    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  702    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  703    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  704    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  705    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  706    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  707    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  708    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  709    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  710    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  711    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  712    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  713    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  714    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  715    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  716    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  717    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  718    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  719    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  720    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  721    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  722    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  723    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  724    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  725    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  726    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  727    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  728    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  729    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  730    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  731    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  732    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  733    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  734    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  735    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  736    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  737    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  738    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  739    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  740    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  741    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  742    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  743    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  744    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  745    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  746    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  747    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  748    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  749    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  750    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  751    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  752    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  753    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  754    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  755    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  756    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  757    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  758    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  759    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  760    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  761    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  762    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  763    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  764    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  765    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  766    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  767    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  768    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  769    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  770    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  771    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  772    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  773    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  774    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  775    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  776    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  777    2.2E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  778    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  779    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  780    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  781    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  782    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  783    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  784    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  785    2.3E+01   4.7E+00       0                NaN                 NaN              NaN           0.000000
+  786    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  787    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  788    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  789    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  790    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  791    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  792    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  793    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  794    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  795    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  796    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  797    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  798    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  799    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  800    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  801    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  802    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  803    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  804    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  805    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  806    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  807    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  808    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  809    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  810    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  811    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  812    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  813    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  814    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  815    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  816    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  817    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  818    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  819    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  820    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  821    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  822    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  823    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  824    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  825    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  826    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  827    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  828    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  829    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  830    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  831    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  832    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  833    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  834    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  835    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  836    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  837    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  838    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  839    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  840    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  841    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  842    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  843    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  844    2.2E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  845    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  846    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  847    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  848    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  849    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  850    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  851    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  852    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  853    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  854    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  855    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  856    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  857    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  858    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  859    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  860    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  861    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  862    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  863    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  864    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  865    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  866    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  867    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  868    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  869    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  870    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  871    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  872    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  873    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  874    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  875    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  876    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  877    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  878    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  879    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  880    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  881    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  882    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  883    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  884    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  885    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  886    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  887    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  888    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  889    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  890    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  891    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  892    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  893    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  894    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  895    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  896    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  897    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  898    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  899    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  900    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  901    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  902    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  903    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  904    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  905    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  906    2.3E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  907    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  908    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  909    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  910    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  911    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  912    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  913    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  914    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  915    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  916    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  917    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  918    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  919    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  920    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  921    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  922    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  923    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  924    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  925    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  926    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  927    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  928    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  929    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  930    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  931    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  932    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  933    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  934    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  935    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  936    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  937    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  938    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  939    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  940    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  941    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  942    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  943    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  944    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  945    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  946    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  947    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  948    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  949    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  950    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  951    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  952    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  953    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  954    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  955    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  956    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  957    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  958    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  959    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  960    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  961    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  962    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  963    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  964    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  965    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  966    2.3E+01   4.8E+00       0                NaN                 NaN              NaN           0.000000
+  967    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  968    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  969    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  970    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  971    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  972    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  973    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  974    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  975    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  976    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  977    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  978    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  979    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  980    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  981    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  982    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  983    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  984    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  985    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  986    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  987    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  988    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  989    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  990    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  991    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  992    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  993    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  994    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  995    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  996    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  997    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  998    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+  999    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+ 1000    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+ 1001    2.2E+01   4.6E+00       0                NaN                 NaN              NaN           0.000000
+
+          ------------------------------
+          EXCESSIVE NUMBER OF ITERATIONS
+          ------------------------------
+
+  **************************************************
+  *         No. EXTERNAL ITER =  1001              *
+  *         No. of TOTAL ITER =     0              *
+  **************************************************
+
+  Elapsed real time :  27146.32  (Seconds)
+
+ The execution finished at  1h 52min on the  4/15/2025

@@ -1,0 +1,12 @@
+Job runing on
+ cp /gscratch/povmieci/TMP/BH76_1_n2ohts.1611059/BH76_1_n2ohts.gcf  /gscratch/povmieci/SCRATCH/126130/.
+Running Parallel DoNOF
+BH76_1_n2ohts.gcf
+BH76_1_n2ohts.inp
+BH76_1_n2ohts.nofsl
+BH76_1_n2ohts.nofsl.e126130
+BH76_1_n2ohts.nofsl.o126130
+def2-qzvp.bas
+  adding: BH76_1_n2ohts.out (deflated 72%)
+MLD
+XYZ

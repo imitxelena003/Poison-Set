@@ -1,0 +1,10 @@
+mv: cannot stat 'CGGRAD': No such file or directory
+mv: cannot stat '1DM': No such file or directory
+cp: 'DC13_7_be4.gcf' and '/beegfs_agamede/gscratch/povmieci/TMP/DC13_7_be4.1500828/./DC13_7_be4.gcf' are the same file
+cp: 'DC13_7_be4.gcfe' and '/beegfs_agamede/gscratch/povmieci/TMP/DC13_7_be4.1500828/./DC13_7_be4.gcfe' are the same file
+cp: 'DC13_7_be4.wfn' and '/beegfs_agamede/gscratch/povmieci/TMP/DC13_7_be4.1500828/./DC13_7_be4.wfn' are the same file
+cp: cannot stat 'DC13_7_be4.cgo': No such file or directory
+cp: 'DC13_7_be4.fchk' and '/beegfs_agamede/gscratch/povmieci/TMP/DC13_7_be4.1500828/./DC13_7_be4.fchk' are the same file
+cp: 'DC13_7_be4.mld' and '/beegfs_agamede/gscratch/povmieci/TMP/DC13_7_be4.1500828/./DC13_7_be4.mld' are the same file
+cp: cannot stat 'DC13_7_be4.1dm': No such file or directory
+mv: 'DC13_7_be4-out.zip' and '/beegfs_agamede/gscratch/povmieci/TMP/DC13_7_be4.1500828/./DC13_7_be4-out.zip' are the same file

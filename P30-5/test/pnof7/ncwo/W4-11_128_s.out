@@ -1,0 +1,207 @@
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+ This is the parallel version of the code
+Master:    0
+
+ The execution started at 17h  6min on the  3/11/2025
+
+    ===========================================================
+    !                                                         !
+    !                        Do N O F                         !
+    !                                                         !
+    !  (Donostia Natural Orbital Functional Software Program) !
+    !                                                         !
+    !               COPYRIGHT by Mario Piris                  !
+    !                                                         !
+    !      Donostia International Physics Center (DIPC)       !
+    !       University of the Basque Country (UPV/EHU)        !
+    !       Basque Foundation for Science (IKERBASQUE)        !
+    !                                                         !
+    !          GNU General Public License version 3           !
+    !                                                         !
+    !                  VERSION: Mayo 2024                     !
+    !                                                         !
+    ===========================================================
+
+ Run Title
+ ---------
+ p30-5 set                                                                       
+
+ Basis Set
+ ---------
+ /home/ion/p30-5/def2-qzvp/pnof7/ncwo/def2-qzvp.bas                              
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ S          16.0        0.0000        0.0000        0.0000
+
+ Atomic Basis Set
+ ----------------
+ The contracted primitive functions were unnormalized
+ The contracted basis functions are now normalized to unity
+
+  Shell Type  Primitive         Exponent  Contraction Coefficient
+
+ S         
+ 
+      1   S       1       1273410.9023000    0.000014411793
+      1   S       2        190697.8300700    0.000112038828
+      1   S       3         43397.8853300    0.000588985343
+      1   S       4         12291.8096770    0.002481008652
+      1   S       5          4009.7420824    0.008963989094
+      1   S       6          1447.3531030    0.028537389243
+      1   S       7           564.3010291    0.080082051325
+      1   S       8           233.7450624    0.191238658744
+      1   S       9           101.5640281    0.359080393305
+      1   S      10            45.8059072    0.444437818639
+ 
+      2   S      11           394.2728150    0.023535321983
+      2   S      12           121.7224959    0.211726936875
+      2   S      13            46.7541260    0.800773142482
+ 
+      3   S      14            20.9230083    1.000000000000
+ 
+      4   S      15             8.2685568    1.000000000000
+ 
+      5   S      16             3.8629346    1.000000000000
+ 
+      6   S      17             1.7794685    1.000000000000
+ 
+      7   S      18             0.6106426    1.000000000000
+ 
+      8   S      19             0.2741227    1.000000000000
+ 
+      9   S      20             0.1132594    1.000000000000
+ 
+     10   P      21          2189.8930459    0.000250257624
+     10   P      22           518.9459659    0.002173903992
+     10   P      23           168.1956015    0.011765792953
+     10   P      24            63.7452828    0.046121537167
+     10   P      25            26.5970331    0.135201910789
+     10   P      26            11.7742514    0.281636090987
+     10   P      27             5.3534379    0.396182490576
+     10   P      28             2.4701912    0.310744031040
+ 
+     11   P      29            82.1202883   -0.061989013267
+     11   P      30             4.9523533    1.007170267778
+ 
+     12   P      31             1.0828262    1.000000000000
+ 
+     13   P      32             0.4927128    1.000000000000
+ 
+     14   P      33             0.2048345    1.000000000000
+ 
+     15   P      34             0.0807436    1.000000000000
+ 
+     16   D      35             4.1590000    1.000000000000
+ 
+     17   D      36             1.0190000    1.000000000000
+ 
+     18   D      37             0.4640000    1.000000000000
+ 
+     19   D      38             0.1940000    1.000000000000
+ 
+     20   F      39             0.8690000    1.000000000000
+ 
+     21   F      40             0.3350000    1.000000000000
+ 
+     22   G      41             0.6830000    1.000000000000
+
+ Total Number of Basis Set Shells             =   22
+ Total Number of Primitives                   =   41
+ Number of Cartesian Gaussian Basis Functions =   86
+ Number of Electrons                          =   16
+ Charge of Molecule                           =    0
+ Spin Multiplicity                            =    3
+ Number of Occupied Orbitals (Alpha)          =    9
+ Number of Occupied Orbitals (Beta )          =    7
+ Total Number of Atoms                        =    1
+
+ Input Run Options
+ -----------------
+ IRUNTYP = 1  MULT = 3  ICHARG =  0 IECP = 0  IEMOM = 1  UNITS = ANGS    
+
+ Integral Options
+ ----------------
+ CUTOFF = 1.0E-09   ISCHWZ = 0   ERITYP = FULL
+
+ Input NOF Options
+ -----------------
+
+ Type of calculation =    Coeff. Opt.:   (ICOEF)         1
+ Use Softmax function for Occ. Opt.:     (ISOFTMAX)      1
+ Type of Orb. Opt. = Orbital Rotations:  (IORBOPT)       4
+ Maximum Number of Occ-Coef Outer Iter.: (MAXIT)      1000
+
+ Natural Orbital Functional Selected:    (IPNOF)         7
+ Spin-Multiplet, High-Spin State Option: (HighSpin)      F
+ 
+ Restart calculation Option:             (RESTART)       T
+ Orthogonalize the initial Orbitals:     (ORTHO)         T
+
+ Output Option:                          (NPRINT)        0
+ Output the Coefficient Matrix:          (IWRITEC)       0
+ Do a Mulliken Population Analysis:      (IMULPOP)       0
+ Write Information into a WFN file:      (IAIMPAC)       1
+ Write Information into a FCHK file:     (IFCHK)         1
+ Write Information into a MLP file:      (MOLDEN)        1
+ Create Ini. Cond. (ini.xyz) file:       (INICOND)       1
+ Calculate IPs using Ext. Koopmans Theo: (IEKT)          0
+ Write APSG expansion coefficient file:  (APSG)          F
+ Output option for Lagrange Multipliers: (PRINTLAG)      F
+ Diagonalize matrix of Lag. Multipliers: (DIAGLAG)       F
+
+ Nuclear Coordinates from GCF file:
+ ----------------------------------
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ S       16.00000        0.0000        0.0000        0.0000
+
+------------------------------------------------------------------------
+
+ Orbital Space
+ -------------
+
+ Inactive Doubly occupied orbitals up to NO1  =    0
+ No. considered Strongly Doubly occupied MOs  =    7
+ No. considered Strongly Singly occupied MOs  =    2
+ No. of Weakly occ. per St. Doubly occ.  MOs  =    9
+ Dimension of the Active Nat. Orb. subspace   =   70
+ Secondary Empty orbitals                     =   14
+
+ 1e- integrals
+ -------------
+ Time to do integrals =      0.00
+
+ 2e- integrals
+ -------------
+ DONTW option skips storage 2e- integrals on Unit 1
+              924192 2e- integrals in     1 records
+ Time to do integrals =      0.37
+
+ Distribution Full ERIs:
+
+ Integrals:                            924192
+ Max size per slaves:                   77018
+ Max size in master:                  1001210
+
+ No violations of the orthonormality
+
+
+  RESULTS OF OCCUPATION-COEFFICIENT OPTIMIZATION
+ ================================================
+
+  Ex It  Occ Time  Orb Time  Orb It   Electronic Energy     Total Energy   Energy Convergency    Max Mul-Lag Diff
+
+ ** ON ENTRY TO ZGEBAL PARAMETER NUMBER  3 HAD AN ILLEGAL VALUE
+ Execution terminated abnormally at Tue Mar 11 17:06:11 2025
